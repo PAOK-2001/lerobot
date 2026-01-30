@@ -364,7 +364,8 @@ class RobotClient:
             return not self.action_queue.empty()
 
     def _action_tensor_to_action_dict(self, action_tensor: torch.Tensor) -> dict[str, float]:
-        action = {key: action_tensor[i].item() for i, key in enumerate(self.robot.action_features)}
+        action = {"joint_{i+1}.pos": action_tensor[i].item() for i in range(7)}
+        action["gripper.pos"] = action_tensor[7].item()
         return action
 
     def control_loop_action(self, verbose: bool = False) -> dict[str, Any]:

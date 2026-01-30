@@ -383,6 +383,13 @@ class PolicyServer(services_pb2_grpc.AsyncInferenceServicer):
 
         action_tensor = action_tensor.detach().cpu()
 
+        action_tensor[:][0] = -1.0
+        action_tensor[:][1] = observation["joint_1.pos"]
+        action_tensor[:][2] = observation["joint_2.pos"]
+        action_tensor[:][3] = observation["joint_3.pos"]
+        action_tensor[:][4] = start_preprocess
+        action_tensor[:][5] = start_postprocess
+
         """5. Convert to TimedAction list"""
         action_chunk = self._time_action_chunk(
             observation_t.get_timestamp(), list(action_tensor), observation_t.get_timestep()

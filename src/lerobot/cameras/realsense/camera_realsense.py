@@ -478,6 +478,8 @@ class RealSenseCamera(Camera):
         failure_count = 0
         while not self.stop_event.is_set():
             try:
+                capture_time = time.perf_counter()
+
                 frame = self._read_from_hardware()
                 color_frame_raw = frame.get_color_frame()
                 color_frame = np.asanyarray(color_frame_raw.get_data())
@@ -487,8 +489,6 @@ class RealSenseCamera(Camera):
                     depth_frame_raw = frame.get_depth_frame()
                     depth_frame = np.asanyarray(depth_frame_raw.get_data())
                     processed_depth_frame = self._postprocess_image(depth_frame, depth_frame=True)
-
-                capture_time = time.perf_counter()
 
                 with self.frame_lock:
                     self.latest_color_frame = processed_color_frame
@@ -570,12 +570,13 @@ class RealSenseCamera(Camera):
 
         with self.frame_lock:
             frame = self.latest_color_frame
+            timestamp = self.latest_timestamp
             self.new_frame_event.clear()
 
         if frame is None:
             raise RuntimeError(f"Internal error: Event set but no frame available for {self}.")
 
-        return frame
+        return frame, timestamp
 
     # NOTE(Steven): Missing implementation for depth for now
     def read_latest(self, max_age_ms: int = 1000) -> NDArray[Any]:
