@@ -160,8 +160,13 @@ class PolicyServer(services_pb2_grpc.AsyncInferenceServicer):
         #     config.compile_model = True
 
         start = time.perf_counter()
-        self.policy = policy_class.from_pretrained(policy_specs.pretrained_name_or_path, config=config)
-        self.policy.to(self.device)
+        try:
+            import traceback
+
+            self.policy = policy_class.from_pretrained(policy_specs.pretrained_name_or_path, config=config)
+            self.policy.to(self.device)
+        except Exception as e:
+            raise Exception(traceback.format_exc())
 
         # Load preprocessor and postprocessor, overriding device to match requested device
         device_override = {"device": self.device}

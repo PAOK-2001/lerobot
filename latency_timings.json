@@ -1,1 +1,2552 @@
-[]
+[
+    {
+        "obs_fetching": 0.05917132191825658,
+        "policy_latency": 0.691567455069162,
+        "obs_to_action": 0.7598769259639084
+    },
+    {
+        "obs_fetching": 0.05104378599207848,
+        "policy_latency": 0.28955556091386825,
+        "obs_to_action": 0.3623108209576458
+    },
+    {
+        "obs_fetching": 0.2291748425923288,
+        "policy_latency": 0.2784199097659439,
+        "obs_to_action": 0.5998471531784162
+    },
+    {
+        "obs_fetching": 0.3055167240090668,
+        "policy_latency": 0.27364748797845095,
+        "obs_to_action": 0.7876061389688402
+    },
+    {
+        "obs_fetching": 0.051020825980231166,
+        "policy_latency": 0.2854937190422788,
+        "obs_to_action": 0.36363444197922945
+    },
+    {
+        "obs_fetching": 0.22779167199041694,
+        "policy_latency": 0.2740790570387617,
+        "obs_to_action": 0.6003167871385813
+    },
+    {
+        "obs_fetching": 0.30355060601141304,
+        "policy_latency": 0.26918705902062356,
+        "obs_to_action": 0.7876547480700538
+    },
+    {
+        "obs_fetching": 0.052074549021199346,
+        "policy_latency": 0.28219835995696485,
+        "obs_to_action": 0.3649719130480662
+    },
+    {
+        "obs_fetching": 0.23600951861590147,
+        "policy_latency": 0.27371760236565024,
+        "obs_to_action": 0.6079643722623587
+    },
+    {
+        "obs_fetching": 0.3148387910332531,
+        "policy_latency": 0.2700829920358956,
+        "obs_to_action": 0.7980757979676127
+    },
+    {
+        "obs_fetching": 0.016858506947755814,
+        "policy_latency": 0.28626745310612023,
+        "obs_to_action": 0.33292878000065684
+    },
+    {
+        "obs_fetching": 0.2036882081301883,
+        "policy_latency": 0.280717792105861,
+        "obs_to_action": 0.5767004699446261
+    },
+    {
+        "obs_fetching": 0.2837580799823627,
+        "policy_latency": 0.27833936596289277,
+        "obs_to_action": 0.7671147759538144
+    },
+    {
+        "obs_fetching": 0.017973489011637866,
+        "policy_latency": 0.28468797297682613,
+        "obs_to_action": 0.3340639310190454
+    },
+    {
+        "obs_fetching": 0.2056473990669474,
+        "policy_latency": 0.2742534097051248,
+        "obs_to_action": 0.5779687158064917
+    },
+    {
+        "obs_fetching": 0.28607907495461404,
+        "policy_latency": 0.26978145400062203,
+        "obs_to_action": 0.7683884479338303
+    },
+    {
+        "obs_fetching": 0.021770954015664756,
+        "policy_latency": 0.28513442096300423,
+        "obs_to_action": 0.3353848230326548
+    },
+    {
+        "obs_fetching": 0.20773354335688055,
+        "policy_latency": 0.275290981750004,
+        "obs_to_action": 0.5791360534494743
+    },
+    {
+        "obs_fetching": 0.28743179596494883,
+        "policy_latency": 0.27107236499432474,
+        "obs_to_action": 0.7695017600199208
+    },
+    {
+        "obs_fetching": 0.023795629967935383,
+        "policy_latency": 0.2848196829436347,
+        "obs_to_action": 0.3366626229835674
+    },
+    {
+        "obs_fetching": 0.20875104458536953,
+        "policy_latency": 0.2743909010896459,
+        "obs_to_action": 0.5804428794654086
+    },
+    {
+        "obs_fetching": 0.2880176509497687,
+        "policy_latency": 0.2699214230524376,
+        "obs_to_action": 0.7710601500002667
+    },
+    {
+        "obs_fetching": 0.02226074005011469,
+        "policy_latency": 0.2858106259955093,
+        "obs_to_action": 0.3381616430124268
+    },
+    {
+        "obs_fetching": 0.20878773590084165,
+        "policy_latency": 0.27328135387506336,
+        "obs_to_action": 0.5819390374235809
+    },
+    {
+        "obs_fetching": 0.2887278769630939,
+        "policy_latency": 0.26791166595648974,
+        "obs_to_action": 0.7723142419708893
+    },
+    {
+        "obs_fetching": 0.023104064050130546,
+        "policy_latency": 0.2848535330267623,
+        "obs_to_action": 0.33923968707676977
+    },
+    {
+        "obs_fetching": 0.20990511402487755,
+        "policy_latency": 0.27428416442126036,
+        "obs_to_action": 0.5832004400435835
+    },
+    {
+        "obs_fetching": 0.28996270697098225,
+        "policy_latency": 0.2697544350521639,
+        "obs_to_action": 0.7736920620081946
+    },
+    {
+        "obs_fetching": 0.024637222988530993,
+        "policy_latency": 0.2841548379510641,
+        "obs_to_action": 0.34067717695143074
+    },
+    {
+        "obs_fetching": 0.21097460435703397,
+        "policy_latency": 0.2722298150183633,
+        "obs_to_action": 0.58444784861058
+    },
+    {
+        "obs_fetching": 0.29083348205313087,
+        "policy_latency": 0.2671190910041332,
+        "obs_to_action": 0.7748622540384531
+    },
+    {
+        "obs_fetching": 0.02739183499943465,
+        "policy_latency": 0.28588892600964755,
+        "obs_to_action": 0.3420395270222798
+    },
+    {
+        "obs_fetching": 0.21304941538255662,
+        "policy_latency": 0.27485811966471374,
+        "obs_to_action": 0.5858311174670234
+    },
+    {
+        "obs_fetching": 0.29261694999877363,
+        "policy_latency": 0.2701306310482323,
+        "obs_to_action": 0.7761980550130829
+    },
+    {
+        "obs_fetching": 0.028923164936713874,
+        "policy_latency": 0.2838482790393755,
+        "obs_to_action": 0.34329767792951316
+    },
+    {
+        "obs_fetching": 0.21461303636897355,
+        "policy_latency": 0.27427758660633117,
+        "obs_to_action": 0.5871359512675554
+    },
+    {
+        "obs_fetching": 0.29419440997298807,
+        "policy_latency": 0.2701758610783145,
+        "obs_to_action": 0.7775976960547268
+    },
+    {
+        "obs_fetching": 0.031320399953983724,
+        "policy_latency": 0.2860753540880978,
+        "obs_to_action": 0.3445760009344667
+    },
+    {
+        "obs_fetching": 0.21617035975214094,
+        "policy_latency": 0.2742141158087179,
+        "obs_to_action": 0.5884794990997761
+    },
+    {
+        "obs_fetching": 0.2953917710110545,
+        "policy_latency": 0.26913072797469795,
+        "obs_to_action": 0.77890958590433
+    },
+    {
+        "obs_fetching": 0.03312447702046484,
+        "policy_latency": 0.28424190601799637,
+        "obs_to_action": 0.34595064108725637
+    },
+    {
+        "obs_fetching": 0.21768391865771264,
+        "policy_latency": 0.2728636299725622,
+        "obs_to_action": 0.589779952657409
+    },
+    {
+        "obs_fetching": 0.2967808219837025,
+        "policy_latency": 0.26798722601961344,
+        "obs_to_action": 0.7802230579545721
+    },
+    {
+        "obs_fetching": 0.03405199002008885,
+        "policy_latency": 0.2845337849576026,
+        "obs_to_action": 0.3473584010498598
+    },
+    {
+        "obs_fetching": 0.21899793460033834,
+        "policy_latency": 0.2767060874029994,
+        "obs_to_action": 0.5912048337049782
+    },
+    {
+        "obs_fetching": 0.2982604820281267,
+        "policy_latency": 0.27335135999601334,
+        "obs_to_action": 0.7818982560420409
+    },
+    {
+        "obs_fetching": 0.03385988192167133,
+        "policy_latency": 0.2870749980211258,
+        "obs_to_action": 0.34905363095458597
+    },
+    {
+        "obs_fetching": 0.21992658101953566,
+        "policy_latency": 0.27643108705524355,
+        "obs_to_action": 0.5928592408308759
+    },
+    {
+        "obs_fetching": 0.29966945201158524,
+        "policy_latency": 0.27186941099353135,
+        "obs_to_action": 0.7832536570494995
+    },
+    {
+        "obs_fetching": 0.03407418995629996,
+        "policy_latency": 0.28173926402814686,
+        "obs_to_action": 0.35014300199691206
+    },
+    {
+        "obs_fetching": 0.22015589068178087,
+        "policy_latency": 0.2723990302765742,
+        "obs_to_action": 0.5940525048645213
+    },
+    {
+        "obs_fetching": 0.299905190942809,
+        "policy_latency": 0.26839607302099466,
+        "obs_to_action": 0.7845414880430326
+    },
+    {
+        "obs_fetching": 0.036150986910797656,
+        "policy_latency": 0.28468864306341857,
+        "obs_to_action": 0.3515995729248971
+    },
+    {
+        "obs_fetching": 0.22238055348861963,
+        "policy_latency": 0.2765945275314152,
+        "obs_to_action": 0.5949465732555836
+    },
+    {
+        "obs_fetching": 0.30219322501216084,
+        "policy_latency": 0.2731256209081039,
+        "obs_to_action": 0.7851230939850211
+    },
+    {
+        "obs_fetching": 0.03700205101631582,
+        "policy_latency": 0.28390725899953395,
+        "obs_to_action": 0.35293909499887377
+    },
+    {
+        "obs_fetching": 0.22354590927716345,
+        "policy_latency": 0.27688897983171046,
+        "obs_to_action": 0.5969437095336616
+    },
+    {
+        "obs_fetching": 0.3034932770533487,
+        "policy_latency": 0.27388114598579705,
+        "obs_to_action": 0.7875349080422893
+    },
+    {
+        "obs_fetching": 0.03866417892277241,
+        "policy_latency": 0.28898169507738203,
+        "obs_to_action": 0.3548132609575987
+    },
+    {
+        "obs_fetching": 0.2261608085827902,
+        "policy_latency": 0.27698944543953985,
+        "obs_to_action": 0.5981376640265808
+    },
+    {
+        "obs_fetching": 0.30651650694198906,
+        "policy_latency": 0.2718499100301415,
+        "obs_to_action": 0.7883552929852158
+    },
+    {
+        "obs_fetching": 0.03982047096360475,
+        "policy_latency": 0.2842196869896725,
+        "obs_to_action": 0.35598792193923146
+    },
+    {
+        "obs_fetching": 0.22623708460014313,
+        "policy_latency": 0.2721115951426327,
+        "obs_to_action": 0.5985471489839256
+    },
+    {
+        "obs_fetching": 0.30612991901580244,
+        "policy_latency": 0.2669224130222574,
+        "obs_to_action": 0.7884163820417598
+    },
+    {
+        "obs_fetching": 0.04138185200281441,
+        "policy_latency": 0.2814013850875199,
+        "obs_to_action": 0.3572959640296176
+    },
+    {
+        "obs_fetching": 0.22554484417196363,
+        "policy_latency": 0.27285451954230666,
+        "obs_to_action": 0.5990858128061518
+    },
+    {
+        "obs_fetching": 0.30447184096556157,
+        "policy_latency": 0.26919157698284835,
+        "obs_to_action": 0.78861889091786
+    },
+    {
+        "obs_fetching": 0.04452283994760364,
+        "policy_latency": 0.28453254397027194,
+        "obs_to_action": 0.3585235149366781
+    },
+    {
+        "obs_fetching": 0.22548025217838585,
+        "policy_latency": 0.2751745597925037,
+        "obs_to_action": 0.5982404875103384
+    },
+    {
+        "obs_fetching": 0.3030334289651364,
+        "policy_latency": 0.27116399502847344,
+        "obs_to_action": 0.7869311609538272
+    },
+    {
+        "obs_fetching": 0.04386673402041197,
+        "policy_latency": 0.2868384389439598,
+        "obs_to_action": 0.359981034998782
+    },
+    {
+        "obs_fetching": 0.22683268575929105,
+        "policy_latency": 0.27433449297677726,
+        "obs_to_action": 0.5998310568975285
+    },
+    {
+        "obs_fetching": 0.30524666502606124,
+        "policy_latency": 0.26897565904073417,
+        "obs_to_action": 0.7885266820667312
+    },
+    {
+        "obs_fetching": 0.04717682208865881,
+        "policy_latency": 0.28576914698351175,
+        "obs_to_action": 0.3612291980534792
+    },
+    {
+        "obs_fetching": 0.22556819254532456,
+        "policy_latency": 0.27569044614210725,
+        "obs_to_action": 0.5989377368241549
+    },
+    {
+        "obs_fetching": 0.30202163697686046,
+        "policy_latency": 0.27137100300751626,
+        "obs_to_action": 0.7867777129868045
+    },
+    {
+        "obs_fetching": 0.04676119494251907,
+        "policy_latency": 0.28615591302514076,
+        "obs_to_action": 0.3626293189590797
+    },
+    {
+        "obs_fetching": 0.22763957176357508,
+        "policy_latency": 0.2744475534418598,
+        "obs_to_action": 0.6005495088174939
+    },
+    {
+        "obs_fetching": 0.3051588759990409,
+        "policy_latency": 0.2694296849658713,
+        "obs_to_action": 0.7884390919934958
+    },
+    {
+        "obs_fetching": 0.047964497935026884,
+        "policy_latency": 0.28116227604914457,
+        "obs_to_action": 0.36392228095792234
+    },
+    {
+        "obs_fetching": 0.22501508216373622,
+        "policy_latency": 0.2739779589464888,
+        "obs_to_action": 0.6075755205238238
+    },
+    {
+        "obs_fetching": 0.30089390405919403,
+        "policy_latency": 0.27089896600227803,
+        "obs_to_action": 0.7979649570770562
+    },
+    {
+        "obs_fetching": 0.017171954037621617,
+        "policy_latency": 0.2839189589722082,
+        "obs_to_action": 0.33184868504758924
+    },
+    {
+        "obs_fetching": 0.20331736106891185,
+        "policy_latency": 0.27475989155936986,
+        "obs_to_action": 0.5756589345401153
+    },
+    {
+        "obs_fetching": 0.2830939639825374,
+        "policy_latency": 0.2708345770370215,
+        "obs_to_action": 0.7660916120512411
+    },
+    {
+        "obs_fetching": 0.017561530927196145,
+        "policy_latency": 0.2864208520622924,
+        "obs_to_action": 0.33317897701635957
+    },
+    {
+        "obs_fetching": 0.20377769332844764,
+        "policy_latency": 0.2809163130586967,
+        "obs_to_action": 0.5770453775767237
+    },
+    {
+        "obs_fetching": 0.28358461998868734,
+        "policy_latency": 0.2785572250140831,
+        "obs_to_action": 0.7675191020825878
+    },
+    {
+        "obs_fetching": 0.020016505965031683,
+        "policy_latency": 0.28707023698370904,
+        "obs_to_action": 0.33448843797668815
+    },
+    {
+        "obs_fetching": 0.2062708098674193,
+        "policy_latency": 0.2763121008174494,
+        "obs_to_action": 0.578442280064337
+    },
+    {
+        "obs_fetching": 0.28609408298507333,
+        "policy_latency": 0.27170147106517106,
+        "obs_to_action": 0.768912032013759
+    },
+    {
+        "obs_fetching": 0.021026837988756597,
+        "policy_latency": 0.28318238304927945,
+        "obs_to_action": 0.3359038579510525
+    },
+    {
+        "obs_fetching": 0.2065939933527261,
+        "policy_latency": 0.27451784163713455,
+        "obs_to_action": 0.5796699163038284
+    },
+    {
+        "obs_fetching": 0.28612277400679886,
+        "policy_latency": 0.2708044669125229,
+        "obs_to_action": 0.7700693359365687
+    },
+    {
+        "obs_fetching": 0.020967139047570527,
+        "policy_latency": 0.2843555749859661,
+        "obs_to_action": 0.3372034600470215
+    },
+    {
+        "obs_fetching": 0.2074103511404246,
+        "policy_latency": 0.2766282295342535,
+        "obs_to_action": 0.5818184728268534
+    },
+    {
+        "obs_fetching": 0.28731458506081253,
+        "policy_latency": 0.27331651002168655,
+        "obs_to_action": 0.7722969700116664
+    },
+    {
+        "obs_fetching": 0.023599100997671485,
+        "policy_latency": 0.2855382179841399,
+        "obs_to_action": 0.3392995949834585
+    },
+    {
+        "obs_fetching": 0.21018307539634407,
+        "policy_latency": 0.2752294783713296,
+        "obs_to_action": 0.5832646921044216
+    },
+    {
+        "obs_fetching": 0.29014763596933335,
+        "policy_latency": 0.27081144705880433,
+        "obs_to_action": 0.7738088190089911
+    },
+    {
+        "obs_fetching": 0.024535233969800174,
+        "policy_latency": 0.2861780340317637,
+        "obs_to_action": 0.3406926050083712
+    },
+    {
+        "obs_fetching": 0.21125599555671215,
+        "policy_latency": 0.2764992683660239,
+        "obs_to_action": 0.5845836607040837
+    },
+    {
+        "obs_fetching": 0.29127917904406786,
+        "policy_latency": 0.27235122595448047,
+        "obs_to_action": 0.7749817620497197
+    },
+    {
+        "obs_fetching": 0.026175873004831374,
+        "policy_latency": 0.29270704998634756,
+        "obs_to_action": 0.34210265695583075
+    },
+    {
+        "obs_fetching": 0.2149814439471811,
+        "policy_latency": 0.2774444571696222,
+        "obs_to_action": 0.5858987836400047
+    },
+    {
+        "obs_fetching": 0.295898117008619,
+        "policy_latency": 0.2709033458959311,
+        "obs_to_action": 0.7763094019610435
+    },
+    {
+        "obs_fetching": 0.026895279064774513,
+        "policy_latency": 0.2824588679941371,
+        "obs_to_action": 0.34340957808308303
+    },
+    {
+        "obs_fetching": 0.20441119244787842,
+        "policy_latency": 0.27554653387051076,
+        "obs_to_action": 0.5871204795548692
+    },
+    {
+        "obs_fetching": 0.2804894410073757,
+        "policy_latency": 0.2725841049104929,
+        "obs_to_action": 0.7775000450201333
+    },
+    {
+        "obs_fetching": 0.02786802197806537,
+        "policy_latency": 0.28322357300203294,
+        "obs_to_action": 0.3446749489521608
+    },
+    {
+        "obs_fetching": 0.21441315417177975,
+        "policy_latency": 0.274384249583818,
+        "obs_to_action": 0.5884658874711022
+    },
+    {
+        "obs_fetching": 0.2943610680522397,
+        "policy_latency": 0.27059596800245345,
+        "obs_to_action": 0.7788813849911094
+    },
+    {
+        "obs_fetching": 0.029805328929796815,
+        "policy_latency": 0.2873418760718778,
+        "obs_to_action": 0.34577537095174193
+    },
+    {
+        "obs_fetching": 0.21617707272525877,
+        "policy_latency": 0.2759858164936304,
+        "obs_to_action": 0.5897646069061011
+    },
+    {
+        "obs_fetching": 0.2960506770759821,
+        "policy_latency": 0.27111893391702324,
+        "obs_to_action": 0.7802736160811037
+    },
+    {
+        "obs_fetching": 0.03236426308285445,
+        "policy_latency": 0.2862751819193363,
+        "obs_to_action": 0.34726696205325425
+    },
+    {
+        "obs_fetching": 0.21839157294016331,
+        "policy_latency": 0.27943742519710213,
+        "obs_to_action": 0.591026232461445
+    },
+    {
+        "obs_fetching": 0.29811756301205605,
+        "policy_latency": 0.27650695794727653,
+        "obs_to_action": 0.7814395979512483
+    },
+    {
+        "obs_fetching": 0.03560048097278923,
+        "policy_latency": 0.2900406470289454,
+        "obs_to_action": 0.3486468429910019
+    },
+    {
+        "obs_fetching": 0.21966435317881405,
+        "policy_latency": 0.27860434725880623,
+        "obs_to_action": 0.5919616061728448
+    },
+    {
+        "obs_fetching": 0.29854887002147734,
+        "policy_latency": 0.27370307594537735,
+        "obs_to_action": 0.7828138989862055
+    },
+    {
+        "obs_fetching": 0.03468307596631348,
+        "policy_latency": 0.2853659490356222,
+        "obs_to_action": 0.35056109994184226
+    },
+    {
+        "obs_fetching": 0.22051170014310628,
+        "policy_latency": 0.27996092149987817,
+        "obs_to_action": 0.5943100942531601
+    },
+    {
+        "obs_fetching": 0.30015253904275596,
+        "policy_latency": 0.27764448104426265,
+        "obs_to_action": 0.7847535259788856
+    },
+    {
+        "obs_fetching": 0.035729049006477,
+        "policy_latency": 0.2859207349829376,
+        "obs_to_action": 0.3518809099914506
+    },
+    {
+        "obs_fetching": 0.22236764442641288,
+        "policy_latency": 0.2771815169835463,
+        "obs_to_action": 0.5954439374618232
+    },
+    {
+        "obs_fetching": 0.30235561390873045,
+        "policy_latency": 0.27343613805714995,
+        "obs_to_action": 0.7857882379321381
+    },
+    {
+        "obs_fetching": 0.037122169975191355,
+        "policy_latency": 0.2846260330406949,
+        "obs_to_action": 0.35340730007737875
+    },
+    {
+        "obs_fetching": 0.22431474830955267,
+        "policy_latency": 0.2751552506815642,
+        "obs_to_action": 0.5971442675217986
+    },
+    {
+        "obs_fetching": 0.3045401390409097,
+        "policy_latency": 0.271096343989484,
+        "obs_to_action": 0.7875909060239792
+    },
+    {
+        "obs_fetching": 0.03914357500616461,
+        "policy_latency": 0.288703867001459,
+        "obs_to_action": 0.3548043699702248
+    },
+    {
+        "obs_fetching": 0.22491724987048656,
+        "policy_latency": 0.27686562936287373,
+        "obs_to_action": 0.5980712607270107
+    },
+    {
+        "obs_fetching": 0.30453453899826854,
+        "policy_latency": 0.27179209899622947,
+        "obs_to_action": 0.7882465419825166
+    },
+    {
+        "obs_fetching": 0.039725492941215634,
+        "policy_latency": 0.2825469969538972,
+        "obs_to_action": 0.3562214019475505
+    },
+    {
+        "obs_fetching": 0.22497208381537348,
+        "policy_latency": 0.27388888876885176,
+        "obs_to_action": 0.5986147247022018
+    },
+    {
+        "obs_fetching": 0.3043634800706059,
+        "policy_latency": 0.2701782709918916,
+        "obs_to_action": 0.7884638101095334
+    },
+    {
+        "obs_fetching": 0.041731939068995416,
+        "policy_latency": 0.2839061579434201,
+        "obs_to_action": 0.3573720030253753
+    },
+    {
+        "obs_fetching": 0.22585870628245175,
+        "policy_latency": 0.2753449634183198,
+        "obs_to_action": 0.598848053952679
+    },
+    {
+        "obs_fetching": 0.30477017792873085,
+        "policy_latency": 0.27167588006705046,
+        "obs_to_action": 0.7882376809138805
+    },
+    {
+        "obs_fetching": 0.04407636297401041,
+        "policy_latency": 0.2850637909723446,
+        "obs_to_action": 0.35875831393059343
+    },
+    {
+        "obs_fetching": 0.2254404592094943,
+        "policy_latency": 0.2774632693035528,
+        "obs_to_action": 0.5985440848162398
+    },
+    {
+        "obs_fetching": 0.3031679290579632,
+        "policy_latency": 0.27420590294059366,
+        "obs_to_action": 0.7872347489465028
+    },
+    {
+        "obs_fetching": 0.044140771962702274,
+        "policy_latency": 0.28548054804559797,
+        "obs_to_action": 0.3601422340143472
+    },
+    {
+        "obs_fetching": 0.22692553652450442,
+        "policy_latency": 0.2751943691400811,
+        "obs_to_action": 0.6002419316209853
+    },
+    {
+        "obs_fetching": 0.30526186409406364,
+        "policy_latency": 0.2707860069349408,
+        "obs_to_action": 0.789190486073494
+    },
+    {
+        "obs_fetching": 0.04660311609040946,
+        "policy_latency": 0.2813429549569264,
+        "obs_to_action": 0.3620743810897693
+    },
+    {
+        "obs_fetching": 0.22673125786241144,
+        "policy_latency": 0.2724114212905988,
+        "obs_to_action": 0.6003478656057268
+    },
+    {
+        "obs_fetching": 0.30392903299070895,
+        "policy_latency": 0.2685836210148409,
+        "obs_to_action": 0.7884037210606039
+    },
+    {
+        "obs_fetching": 0.048872661078348756,
+        "policy_latency": 0.28750169300474226,
+        "obs_to_action": 0.3632303630001843
+    },
+    {
+        "obs_fetching": 0.2287708333460614,
+        "policy_latency": 0.2782647449057549,
+        "obs_to_action": 0.5997516385978088
+    },
+    {
+        "obs_fetching": 0.3058700499823317,
+        "policy_latency": 0.2743060529464856,
+        "obs_to_action": 0.7870518689742312
+    },
+    {
+        "obs_fetching": 0.04834770399611443,
+        "policy_latency": 0.2819285310106352,
+        "obs_to_action": 0.3646412140224129
+    },
+    {
+        "obs_fetching": 0.22529320558533072,
+        "policy_latency": 0.27324665791820735,
+        "obs_to_action": 0.6080739484168589
+    },
+    {
+        "obs_fetching": 0.30112699198070914,
+        "policy_latency": 0.2695258550811559,
+        "obs_to_action": 0.7983124440070242
+    },
+    {
+        "obs_fetching": 0.016183860949240625,
+        "policy_latency": 0.283000695053488,
+        "obs_to_action": 0.33259886992163956
+    },
+    {
+        "obs_fetching": 0.20276418793946505,
+        "policy_latency": 0.2727007674984634,
+        "obs_to_action": 0.5764163339044899
+    },
+    {
+        "obs_fetching": 0.2827271850546822,
+        "policy_latency": 0.26828651293180883,
+        "obs_to_action": 0.7668799649691209
+    },
+    {
+        "obs_fetching": 0.017950308974832296,
+        "policy_latency": 0.2847182230325416,
+        "obs_to_action": 0.3339921599254012
+    },
+    {
+        "obs_fetching": 0.2041031422559172,
+        "policy_latency": 0.27514069073367864,
+        "obs_to_action": 0.5778120988979936
+    },
+    {
+        "obs_fetching": 0.2838829279644415,
+        "policy_latency": 0.27103603398427367,
+        "obs_to_action": 0.7682093849871308
+    },
+    {
+        "obs_fetching": 0.019392000045627356,
+        "policy_latency": 0.28696633700747043,
+        "obs_to_action": 0.3352525520604104
+    },
+    {
+        "obs_fetching": 0.20612797106150538,
+        "policy_latency": 0.27555486001074314,
+        "obs_to_action": 0.5791030197869986
+    },
+    {
+        "obs_fetching": 0.28615767299197614,
+        "policy_latency": 0.27066422696225345,
+        "obs_to_action": 0.7695728869875893
+    },
+    {
+        "obs_fetching": 0.020986838964745402,
+        "policy_latency": 0.2848607510095462,
+        "obs_to_action": 0.33655360399279743
+    },
+    {
+        "obs_fetching": 0.2070701343473047,
+        "policy_latency": 0.2773129470879212,
+        "obs_to_action": 0.5805300889769569
+    },
+    {
+        "obs_fetching": 0.28682011796627194,
+        "policy_latency": 0.2740781740285456,
+        "obs_to_action": 0.7710244379704818
+    },
+    {
+        "obs_fetching": 0.021942632040008903,
+        "policy_latency": 0.28388256893958896,
+        "obs_to_action": 0.3379630839917809
+    },
+    {
+        "obs_fetching": 0.20836450823117048,
+        "policy_latency": 0.2775309650460258,
+        "obs_to_action": 0.5820663959020749
+    },
+    {
+        "obs_fetching": 0.28825959796085954,
+        "policy_latency": 0.2748088490916416,
+        "obs_to_action": 0.7725855159806088
+    },
+    {
+        "obs_fetching": 0.024207366979680955,
+        "policy_latency": 0.2854094379581511,
+        "obs_to_action": 0.33969049190636724
+    },
+    {
+        "obs_fetching": 0.2109535651979968,
+        "policy_latency": 0.2761150620644912,
+        "obs_to_action": 0.5834308107150719
+    },
+    {
+        "obs_fetching": 0.290987650048919,
+        "policy_latency": 0.2721317579271272,
+        "obs_to_action": 0.7738980180583894
+    },
+    {
+        "obs_fetching": 0.025401158956810832,
+        "policy_latency": 0.2869583379942924,
+        "obs_to_action": 0.3410016039852053
+    },
+    {
+        "obs_fetching": 0.2118224122095853,
+        "policy_latency": 0.2771408820990473,
+        "obs_to_action": 0.5848760799271986
+    },
+    {
+        "obs_fetching": 0.2917172349989414,
+        "policy_latency": 0.2729334010509774,
+        "obs_to_action": 0.7757467239862308
+    },
+    {
+        "obs_fetching": 0.027091888012364507,
+        "policy_latency": 0.2840634259628132,
+        "obs_to_action": 0.3426582230022177
+    },
+    {
+        "obs_fetching": 0.21438567794393748,
+        "policy_latency": 0.2762058252701536,
+        "obs_to_action": 0.5866567752091214
+    },
+    {
+        "obs_fetching": 0.29465444502420723,
+        "policy_latency": 0.27283828204963356,
+        "obs_to_action": 0.7771522150142118
+    },
+    {
+        "obs_fetching": 0.02810048998799175,
+        "policy_latency": 0.2825182470260188,
+        "obs_to_action": 0.3440952820237726
+    },
+    {
+        "obs_fetching": 0.2167855566367507,
+        "policy_latency": 0.27477973653003573,
+        "obs_to_action": 0.5878818975761533
+    },
+    {
+        "obs_fetching": 0.29765058506745845,
+        "policy_latency": 0.27146323199849576,
+        "obs_to_action": 0.778286048094742
+    },
+    {
+        "obs_fetching": 0.03152396797668189,
+        "policy_latency": 0.28842534706927836,
+        "obs_to_action": 0.3453849330544472
+    },
+    {
+        "obs_fetching": 0.21723089646548033,
+        "policy_latency": 0.2761721683200449,
+        "obs_to_action": 0.5892205908894539
+    },
+    {
+        "obs_fetching": 0.296819580020383,
+        "policy_latency": 0.27092080598231405,
+        "obs_to_action": 0.779633388039656
+    },
+    {
+        "obs_fetching": 0.03049214498605579,
+        "policy_latency": 0.2819276009686291,
+        "obs_to_action": 0.34664797503501177
+    },
+    {
+        "obs_fetching": 0.21653923636768013,
+        "policy_latency": 0.273805289529264,
+        "obs_to_action": 0.5904804238816723
+    },
+    {
+        "obs_fetching": 0.29627370403613895,
+        "policy_latency": 0.270324298995547,
+        "obs_to_action": 0.7808964099967852
+    },
+    {
+        "obs_fetching": 0.03188110503833741,
+        "policy_latency": 0.2870368770090863,
+        "obs_to_action": 0.34779184707440436
+    },
+    {
+        "obs_fetching": 0.21860716468654573,
+        "policy_latency": 0.27339773473795503,
+        "obs_to_action": 0.5916699008084834
+    },
+    {
+        "obs_fetching": 0.298632618971169,
+        "policy_latency": 0.2675523880170658,
+        "obs_to_action": 0.7823583099525422
+    },
+    {
+        "obs_fetching": 0.034110100008547306,
+        "policy_latency": 0.28381016897037625,
+        "obs_to_action": 0.34934272698592395
+    },
+    {
+        "obs_fetching": 0.21998915157746524,
+        "policy_latency": 0.27583028515800834,
+        "obs_to_action": 0.5931216425960883
+    },
+    {
+        "obs_fetching": 0.2996516020502895,
+        "policy_latency": 0.27241033501923084,
+        "obs_to_action": 0.7835093330359086
+    },
+    {
+        "obs_fetching": 0.03490046598017216,
+        "policy_latency": 0.2856573060853407,
+        "obs_to_action": 0.3504352200543508
+    },
+    {
+        "obs_fetching": 0.22160278039518744,
+        "policy_latency": 0.2775979946600273,
+        "obs_to_action": 0.5943728252314031
+    },
+    {
+        "obs_fetching": 0.30161805800162256,
+        "policy_latency": 0.2741440039826557,
+        "obs_to_action": 0.7850902120117098
+    },
+    {
+        "obs_fetching": 0.03666810295544565,
+        "policy_latency": 0.29001088708173484,
+        "obs_to_action": 0.3522062069969252
+    },
+    {
+        "obs_fetching": 0.2241201411234215,
+        "policy_latency": 0.27714835410006344,
+        "obs_to_action": 0.5953003475442529
+    },
+    {
+        "obs_fetching": 0.3044567289762199,
+        "policy_latency": 0.27163583994843066,
+        "obs_to_action": 0.7857120669214055
+    },
+    {
+        "obs_fetching": 0.0381960840895772,
+        "policy_latency": 0.28545372700318694,
+        "obs_to_action": 0.3543164940783754
+    },
+    {
+        "obs_fetching": 0.225356797571294,
+        "policy_latency": 0.2803662872174755,
+        "obs_to_action": 0.5982157047837973
+    },
+    {
+        "obs_fetching": 0.3055685319704935,
+        "policy_latency": 0.27818595594726503,
+        "obs_to_action": 0.7888985560275614
+    },
+    {
+        "obs_fetching": 0.041761677945032716,
+        "policy_latency": 0.2890481729991734,
+        "obs_to_action": 0.35605085198767483
+    },
+    {
+        "obs_fetching": 0.2249522163765505,
+        "policy_latency": 0.2775572179816663,
+        "obs_to_action": 0.5976755600422621
+    },
+    {
+        "obs_fetching": 0.30346244701649994,
+        "policy_latency": 0.2726325229741633,
+        "obs_to_action": 0.7870482489233837
+    },
+    {
+        "obs_fetching": 0.04138382093515247,
+        "policy_latency": 0.28373465908225626,
+        "obs_to_action": 0.3577101309783757
+    },
+    {
+        "obs_fetching": 0.22637779102660716,
+        "policy_latency": 0.2746264466550201,
+        "obs_to_action": 0.599088846356608
+    },
+    {
+        "obs_fetching": 0.3056609210325405,
+        "policy_latency": 0.27072292705997825,
+        "obs_to_action": 0.788703358033672
+    },
+    {
+        "obs_fetching": 0.04346217692364007,
+        "policy_latency": 0.28378848906140774,
+        "obs_to_action": 0.3594001289457083
+    },
+    {
+        "obs_fetching": 0.22637799324002117,
+        "policy_latency": 0.27457620843779296,
+        "obs_to_action": 0.5995627990923822
+    },
+    {
+        "obs_fetching": 0.3047704859636724,
+        "policy_latency": 0.2706280880374834,
+        "obs_to_action": 0.788411409012042
+    },
+    {
+        "obs_fetching": 0.04436602094210684,
+        "policy_latency": 0.2864978200523183,
+        "obs_to_action": 0.36044161196332425
+    },
+    {
+        "obs_fetching": 0.22687909589149058,
+        "policy_latency": 0.27528337051626295,
+        "obs_to_action": 0.6000807622913271
+    },
+    {
+        "obs_fetching": 0.3050989849725738,
+        "policy_latency": 0.2704771780408919,
+        "obs_to_action": 0.7887832169653848
+    },
+    {
+        "obs_fetching": 0.046985313994809985,
+        "policy_latency": 0.2891860419185832,
+        "obs_to_action": 0.36221975996159017
+    },
+    {
+        "obs_fetching": 0.22776559193152934,
+        "policy_latency": 0.27932415157556534,
+        "obs_to_action": 0.6005411099176854
+    },
+    {
+        "obs_fetching": 0.3052428539376706,
+        "policy_latency": 0.27509762707632035,
+        "obs_to_action": 0.7885921279666945
+    },
+    {
+        "obs_fetching": 0.049334107083268464,
+        "policy_latency": 0.29682290100026876,
+        "obs_to_action": 0.363558471086435
+    },
+    {
+        "obs_fetching": 0.22931504668667912,
+        "policy_latency": 0.2784351238515228,
+        "obs_to_action": 0.5999612372834235
+    },
+    {
+        "obs_fetching": 0.30644973495509475,
+        "policy_latency": 0.2705546480137855,
+        "obs_to_action": 0.7871625769184902
+    },
+    {
+        "obs_fetching": 0.04983481403905898,
+        "policy_latency": 0.2876264329534024,
+        "obs_to_action": 0.36478353303391486
+    },
+    {
+        "obs_fetching": 0.23517935525160283,
+        "policy_latency": 0.27639175998046994,
+        "obs_to_action": 0.6081425661686808
+    },
+    {
+        "obs_fetching": 0.31461273005697876,
+        "policy_latency": 0.2715769000351429,
+        "obs_to_action": 0.7986685490468517
+    },
+    {
+        "obs_fetching": 0.017118794028647244,
+        "policy_latency": 0.2851985290180892,
+        "obs_to_action": 0.3332568339537829
+    },
+    {
+        "obs_fetching": 0.2036382150836289,
+        "policy_latency": 0.27472459070850164,
+        "obs_to_action": 0.5770150811877102
+    },
+    {
+        "obs_fetching": 0.2835751100210473,
+        "policy_latency": 0.27023575990460813,
+        "obs_to_action": 0.767393950955011
+    },
+    {
+        "obs_fetching": 0.018587594968266785,
+        "policy_latency": 0.2925016399240121,
+        "obs_to_action": 0.33429277793038636
+    },
+    {
+        "obs_fetching": 0.20553900999948382,
+        "policy_latency": 0.27840006712358445,
+        "obs_to_action": 0.5782091461587697
+    },
+    {
+        "obs_fetching": 0.2856610449962318,
+        "policy_latency": 0.27235653600655496,
+        "obs_to_action": 0.7686851019971073
+    },
+    {
+        "obs_fetching": 0.019258340005762875,
+        "policy_latency": 0.28595890395808965,
+        "obs_to_action": 0.3356752189574763
+    },
+    {
+        "obs_fetching": 0.20588875887915492,
+        "policy_latency": 0.27569849928840995,
+        "obs_to_action": 0.5794403126928955
+    },
+    {
+        "obs_fetching": 0.28587322402745485,
+        "policy_latency": 0.2713011830346659,
+        "obs_to_action": 0.769841414061375
+    },
+    {
+        "obs_fetching": 0.020762629923410714,
+        "policy_latency": 0.2844008340034634,
+        "obs_to_action": 0.33694483095314354
+    },
+    {
+        "obs_fetching": 0.20782229932956398,
+        "policy_latency": 0.273700013756752,
+        "obs_to_action": 0.5810519999358803
+    },
+    {
+        "obs_fetching": 0.28799072897527367,
+        "policy_latency": 0.26911394798662513,
+        "obs_to_action": 0.771571981953457
+    },
+    {
+        "obs_fetching": 0.02372740104328841,
+        "policy_latency": 0.29045908199623227,
+        "obs_to_action": 0.33861800900194794
+    },
+    {
+        "obs_fetching": 0.2096944262739271,
+        "policy_latency": 0.2781541250878945,
+        "obs_to_action": 0.5825208019232377
+    },
+    {
+        "obs_fetching": 0.2893945799442008,
+        "policy_latency": 0.272880572010763,
+        "obs_to_action": 0.7730125819798559
+    },
+    {
+        "obs_fetching": 0.023900768952444196,
+        "policy_latency": 0.2822467590449378,
+        "obs_to_action": 0.3400022099958733
+    },
+    {
+        "obs_fetching": 0.2014896699693054,
+        "policy_latency": 0.2781460533151403,
+        "obs_to_action": 0.583983464166522
+    },
+    {
+        "obs_fetching": 0.27759919909294695,
+        "policy_latency": 0.27638860791921616,
+        "obs_to_action": 0.7744885419961065
+    },
+    {
+        "obs_fetching": 0.025246898992918432,
+        "policy_latency": 0.2896921889623627,
+        "obs_to_action": 0.3415069589391351
+    },
+    {
+        "obs_fetching": 0.21288939251098782,
+        "policy_latency": 0.2793137230910361,
+        "obs_to_action": 0.5853624643059447
+    },
+    {
+        "obs_fetching": 0.2933076040353626,
+        "policy_latency": 0.27486580901313573,
+        "obs_to_action": 0.7758247130550444
+    },
+    {
+        "obs_fetching": 0.02678405900951475,
+        "policy_latency": 0.28848335705697536,
+        "obs_to_action": 0.3429861390031874
+    },
+    {
+        "obs_fetching": 0.21352182200644165,
+        "policy_latency": 0.2760327714495361,
+        "obs_to_action": 0.5867840035352856
+    },
+    {
+        "obs_fetching": 0.29355229204520583,
+        "policy_latency": 0.27069680602289736,
+        "obs_to_action": 0.7772289731074125
+    },
+    {
+        "obs_fetching": 0.028372358065098524,
+        "policy_latency": 0.28575132600963116,
+        "obs_to_action": 0.34434667008463293
+    },
+    {
+        "obs_fetching": 0.21490264311432838,
+        "policy_latency": 0.2755238969111815,
+        "obs_to_action": 0.5882207024842501
+    },
+    {
+        "obs_fetching": 0.29484419396612793,
+        "policy_latency": 0.27114071301184595,
+        "obs_to_action": 0.7787069838959724
+    },
+    {
+        "obs_fetching": 0.029202823992818594,
+        "policy_latency": 0.28446058300323784,
+        "obs_to_action": 0.34558274201117456
+    },
+    {
+        "obs_fetching": 0.21652352821547538,
+        "policy_latency": 0.2760487823979929,
+        "obs_to_action": 0.5894893081858754
+    },
+    {
+        "obs_fetching": 0.2968038300750777,
+        "policy_latency": 0.2724437249125913,
+        "obs_to_action": 0.7799532150384039
+    },
+    {
+        "obs_fetching": 0.032787617994472384,
+        "policy_latency": 0.28642453101929277,
+        "obs_to_action": 0.34694603201933205
+    },
+    {
+        "obs_fetching": 0.21839489648118615,
+        "policy_latency": 0.2768290863605216,
+        "obs_to_action": 0.5907338571269065
+    },
+    {
+        "obs_fetching": 0.2979408730752766,
+        "policy_latency": 0.27271675295196474,
+        "obs_to_action": 0.7811533680651337
+    },
+    {
+        "obs_fetching": 0.03373779298271984,
+        "policy_latency": 0.28494023997336626,
+        "obs_to_action": 0.3481858349405229
+    },
+    {
+        "obs_fetching": 0.21900249912869185,
+        "policy_latency": 0.275355989811942,
+        "obs_to_action": 0.5920422117924318
+    },
+    {
+        "obs_fetching": 0.29840165900532156,
+        "policy_latency": 0.2712484539952129,
+        "obs_to_action": 0.782461347989738
+    },
+    {
+        "obs_fetching": 0.03518145193811506,
+        "policy_latency": 0.28824216895736754,
+        "obs_to_action": 0.34956310491543263
+    },
+    {
+        "obs_fetching": 0.22185627941507846,
+        "policy_latency": 0.2791014688555151,
+        "obs_to_action": 0.5933444431284443
+    },
+    {
+        "obs_fetching": 0.3018597769550979,
+        "policy_latency": 0.27518402598798275,
+        "obs_to_action": 0.7842348469421268
+    },
+    {
+        "obs_fetching": 0.034837805083952844,
+        "policy_latency": 0.28340904088690877,
+        "obs_to_action": 0.35119409405160695
+    },
+    {
+        "obs_fetching": 0.22186831221915781,
+        "policy_latency": 0.27654943719971925,
+        "obs_to_action": 0.5954468420241028
+    },
+    {
+        "obs_fetching": 0.30202424398157746,
+        "policy_latency": 0.2736096070148051,
+        "obs_to_action": 0.7860950329340994
+    },
+    {
+        "obs_fetching": 0.03735227801371366,
+        "policy_latency": 0.2865450989920646,
+        "obs_to_action": 0.3531981100095436
+    },
+    {
+        "obs_fetching": 0.22344358824193478,
+        "policy_latency": 0.2765354609582573,
+        "obs_to_action": 0.5966613213531673
+    },
+    {
+        "obs_fetching": 0.3031970070442185,
+        "policy_latency": 0.27224561595357955,
+        "obs_to_action": 0.7869516670471057
+    },
+    {
+        "obs_fetching": 0.03904458589386195,
+        "policy_latency": 0.2856521960347891,
+        "obs_to_action": 0.3545822809683159
+    },
+    {
+        "obs_fetching": 0.22550848324317485,
+        "policy_latency": 0.2777975135250017,
+        "obs_to_action": 0.5981671110494062
+    },
+    {
+        "obs_fetching": 0.3054215820739046,
+        "policy_latency": 0.27443122095428407,
+        "obs_to_action": 0.7885235170833766
+    },
+    {
+        "obs_fetching": 0.04084705398418009,
+        "policy_latency": 0.2801949930144474,
+        "obs_to_action": 0.35611627099569887
+    },
+    {
+        "obs_fetching": 0.2154222666285932,
+        "policy_latency": 0.27684388449415565,
+        "obs_to_action": 0.5986374752828851
+    },
+    {
+        "obs_fetching": 0.29024021490477026,
+        "policy_latency": 0.2754076950950548,
+        "obs_to_action": 0.7884604689897969
+    },
+    {
+        "obs_fetching": 0.04351760691497475,
+        "policy_latency": 0.28172648209147155,
+        "obs_to_action": 0.35736728191841394
+    },
+    {
+        "obs_fetching": 0.22504129342269152,
+        "policy_latency": 0.274037838797085,
+        "obs_to_action": 0.597824655007571
+    },
+    {
+        "obs_fetching": 0.3028371590189636,
+        "policy_latency": 0.27074270602315664,
+        "obs_to_action": 0.7867754589533433
+    },
+    {
+        "obs_fetching": 0.04374008497688919,
+        "policy_latency": 0.28195811004843563,
+        "obs_to_action": 0.3587425019359216
+    },
+    {
+        "obs_fetching": 0.2250210625352338,
+        "policy_latency": 0.26992055028676987,
+        "obs_to_action": 0.5984162215609103
+    },
+    {
+        "obs_fetching": 0.3027129099937156,
+        "policy_latency": 0.2647615961031988,
+        "obs_to_action": 0.787098226021044
+    },
+    {
+        "obs_fetching": 0.04380818596109748,
+        "policy_latency": 0.2830854820786044,
+        "obs_to_action": 0.3602647529914975
+    },
+    {
+        "obs_fetching": 0.22616479615680873,
+        "policy_latency": 0.27771786239463836,
+        "obs_to_action": 0.5999056588625535
+    },
+    {
+        "obs_fetching": 0.30431762896478176,
+        "policy_latency": 0.27541745407506824,
+        "obs_to_action": 0.7885444769635797
+    },
+    {
+        "obs_fetching": 0.0458722619805485,
+        "policy_latency": 0.2830961520085111,
+        "obs_to_action": 0.3615215739700943
+    },
+    {
+        "obs_fetching": 0.22761342232115567,
+        "policy_latency": 0.2763208345277235,
+        "obs_to_action": 0.6001728381961584
+    },
+    {
+        "obs_fetching": 0.30550249107182026,
+        "policy_latency": 0.2734171269694343,
+        "obs_to_action": 0.7883621680084616
+    },
+    {
+        "obs_fetching": 0.04841611406300217,
+        "policy_latency": 0.2845106429886073,
+        "obs_to_action": 0.3625770470825955
+    },
+    {
+        "obs_fetching": 0.22723891749046743,
+        "policy_latency": 0.27305607474409044,
+        "obs_to_action": 0.5993007430806756
+    },
+    {
+        "obs_fetching": 0.3038772620493546,
+        "policy_latency": 0.2681469739181921,
+        "obs_to_action": 0.7866986490553245
+    },
+    {
+        "obs_fetching": 0.04810704605188221,
+        "policy_latency": 0.2820881489897147,
+        "obs_to_action": 0.3640445170458406
+    },
+    {
+        "obs_fetching": 0.23403644072823226,
+        "policy_latency": 0.2773718745447695,
+        "obs_to_action": 0.6076683630235493
+    },
+    {
+        "obs_fetching": 0.31372046703472733,
+        "policy_latency": 0.27535061398521066,
+        "obs_to_action": 0.7979623230639845
+    },
+    {
+        "obs_fetching": 0.015528126037679613,
+        "policy_latency": 0.28407309495378286,
+        "obs_to_action": 0.33198229398112744
+    },
+    {
+        "obs_fetching": 0.20241248793900013,
+        "policy_latency": 0.2716394297312945,
+        "obs_to_action": 0.5757550084963441
+    },
+    {
+        "obs_fetching": 0.28250578604638577,
+        "policy_latency": 0.2663107159314677,
+        "obs_to_action": 0.7661488780286163
+    },
+    {
+        "obs_fetching": 0.017965839011594653,
+        "policy_latency": 0.287336723995395,
+        "obs_to_action": 0.3332927939482033
+    },
+    {
+        "obs_fetching": 0.20428449392784387,
+        "policy_latency": 0.2732357735512778,
+        "obs_to_action": 0.5771705126389861
+    },
+    {
+        "obs_fetching": 0.284135345951654,
+        "policy_latency": 0.2671925090253353,
+        "obs_to_action": 0.767643466941081
+    },
+    {
+        "obs_fetching": 0.018181647057645023,
+        "policy_latency": 0.2853268180042505,
+        "obs_to_action": 0.334475195966661
+    },
+    {
+        "obs_fetching": 0.2047989135608077,
+        "policy_latency": 0.2724496830487624,
+        "obs_to_action": 0.5786348391557112
+    },
+    {
+        "obs_fetching": 0.2847777419956401,
+        "policy_latency": 0.2669309109915048,
+        "obs_to_action": 0.769245826988481
+    },
+    {
+        "obs_fetching": 0.020032614935189486,
+        "policy_latency": 0.28759636206086725,
+        "obs_to_action": 0.3361350439954549
+    },
+    {
+        "obs_fetching": 0.20702798303682357,
+        "policy_latency": 0.272782635060139,
+        "obs_to_action": 0.5800857268041
+    },
+    {
+        "obs_fetching": 0.28716885508038104,
+        "policy_latency": 0.2664338949834928,
+        "obs_to_action": 0.7705543270567432
+    },
+    {
+        "obs_fetching": 0.02155849407427013,
+        "policy_latency": 0.2864607300143689,
+        "obs_to_action": 0.3374853660352528
+    },
+    {
+        "obs_fetching": 0.20813336165156215,
+        "policy_latency": 0.27187858894467354,
+        "obs_to_action": 0.581388127640821
+    },
+    {
+        "obs_fetching": 0.2880940190516412,
+        "policy_latency": 0.2656291000312194,
+        "obs_to_action": 0.7718125390820205
+    },
+    {
+        "obs_fetching": 0.022458449006080627,
+        "policy_latency": 0.28560499497689307,
+        "obs_to_action": 0.3389407859649509
+    },
+    {
+        "obs_fetching": 0.20943998428992927,
+        "policy_latency": 0.27934156358242035,
+        "obs_to_action": 0.5827590605476871
+    },
+    {
+        "obs_fetching": 0.289574927999638,
+        "policy_latency": 0.27665723592508584,
+        "obs_to_action": 0.7731650699861348
+    },
+    {
+        "obs_fetching": 0.025753695983439684,
+        "policy_latency": 0.28409734496381134,
+        "obs_to_action": 0.34025313693564385
+    },
+    {
+        "obs_fetching": 0.21132432110607624,
+        "policy_latency": 0.27311957185156643,
+        "obs_to_action": 0.5840574256144464
+    },
+    {
+        "obs_fetching": 0.29085458908230066,
+        "policy_latency": 0.26841481192968786,
+        "obs_to_action": 0.7747201600577682
+    },
+    {
+        "obs_fetching": 0.027878301916643977,
+        "policy_latency": 0.28640454006381333,
+        "obs_to_action": 0.34165624796878546
+    },
+    {
+        "obs_fetching": 0.21345757972449064,
+        "policy_latency": 0.27027775440365076,
+        "obs_to_action": 0.5855839727446437
+    },
+    {
+        "obs_fetching": 0.29299155599437654,
+        "policy_latency": 0.26336627500131726,
+        "obs_to_action": 0.776014580973424
+    },
+    {
+        "obs_fetching": 0.029041604953818023,
+        "policy_latency": 0.28226424800232053,
+        "obs_to_action": 0.34299046895466745
+    },
+    {
+        "obs_fetching": 0.21349841868504882,
+        "policy_latency": 0.27112953504547477,
+        "obs_to_action": 0.5867923684418201
+    },
+    {
+        "obs_fetching": 0.2925513390218839,
+        "policy_latency": 0.26635751500725746,
+        "obs_to_action": 0.7772702219663188
+    },
+    {
+        "obs_fetching": 0.02807154192123562,
+        "policy_latency": 0.2813676040386781,
+        "obs_to_action": 0.34461579797789454
+    },
+    {
+        "obs_fetching": 0.2048544258577749,
+        "policy_latency": 0.2775263658259064,
+        "obs_to_action": 0.5887420937651768
+    },
+    {
+        "obs_fetching": 0.2806185189401731,
+        "policy_latency": 0.27588012104388326,
+        "obs_to_action": 0.7796993859810755
+    },
+    {
+        "obs_fetching": 0.03144825797062367,
+        "policy_latency": 0.277426240965724,
+        "obs_to_action": 0.3134297779761255
+    },
+    {
+        "obs_fetching": 0.20556625362951308,
+        "policy_latency": 0.2706951145082712,
+        "obs_to_action": 0.590729100513272
+    },
+    {
+        "obs_fetching": 0.280188251985237,
+        "policy_latency": 0.26781034597661346,
+        "obs_to_action": 0.7477862810483202
+    },
+    {
+        "obs_fetching": 0.03241599095053971,
+        "policy_latency": 0.2805265790084377,
+        "obs_to_action": 0.3483254329767078
+    },
+    {
+        "obs_fetching": 0.20855010650120676,
+        "policy_latency": 0.2758929885458201,
+        "obs_to_action": 0.5920181032270193
+    },
+    {
+        "obs_fetching": 0.2840361560229212,
+        "policy_latency": 0.2739071639953181,
+        "obs_to_action": 0.7824571169912815
+    },
+    {
+        "obs_fetching": 0.03410455002449453,
+        "policy_latency": 0.2865686590084806,
+        "obs_to_action": 0.3496439040172845
+    },
+    {
+        "obs_fetching": 0.22066099976655096,
+        "policy_latency": 0.27434898167848587,
+        "obs_to_action": 0.5935532596195117
+    },
+    {
+        "obs_fetching": 0.3006137639749795,
+        "policy_latency": 0.2691119770752266,
+        "obs_to_action": 0.7840179560007527
+    },
+    {
+        "obs_fetching": 0.03545227996073663,
+        "policy_latency": 0.2789094910258427,
+        "obs_to_action": 0.31778960803058
+    },
+    {
+        "obs_fetching": 0.21052084839902818,
+        "policy_latency": 0.27624376921448857,
+        "obs_to_action": 0.5949983722530305
+    },
+    {
+        "obs_fetching": 0.2855502349557355,
+        "policy_latency": 0.275101316976361,
+        "obs_to_action": 0.752024041954428
+    },
+    {
+        "obs_fetching": 0.03620881598908454,
+        "policy_latency": 0.2824923769803718,
+        "obs_to_action": 0.352521984023042
+    },
+    {
+        "obs_fetching": 0.22217626892961562,
+        "policy_latency": 0.27242056420072913,
+        "obs_to_action": 0.596121235168539
+    },
+    {
+        "obs_fetching": 0.30187660607043654,
+        "policy_latency": 0.2681040730094537,
+        "obs_to_action": 0.7867151090176776
+    },
+    {
+        "obs_fetching": 0.03912963706534356,
+        "policy_latency": 0.28416716400533915,
+        "obs_to_action": 0.35503393807448447
+    },
+    {
+        "obs_fetching": 0.22516580834053457,
+        "policy_latency": 0.273188368184492,
+        "obs_to_action": 0.5983802231494337
+    },
+    {
+        "obs_fetching": 0.3048955959966406,
+        "policy_latency": 0.26848316995892674,
+        "obs_to_action": 0.7889655630569905
+    },
+    {
+        "obs_fetching": 0.04184539697598666,
+        "policy_latency": 0.28430762398056686,
+        "obs_to_action": 0.35681501496583223
+    },
+    {
+        "obs_fetching": 0.2256450355052948,
+        "policy_latency": 0.27444994053803384,
+        "obs_to_action": 0.5985454852925614
+    },
+    {
+        "obs_fetching": 0.30441630899440497,
+        "policy_latency": 0.2702252190792933,
+        "obs_to_action": 0.7880386000033468
+    },
+    {
+        "obs_fetching": 0.04211131599731743,
+        "policy_latency": 0.2833166610216722,
+        "obs_to_action": 0.35788945795502514
+    },
+    {
+        "obs_fetching": 0.22585892968345433,
+        "policy_latency": 0.27167769940569997,
+        "obs_to_action": 0.5987916371086612
+    },
+    {
+        "obs_fetching": 0.30460790696088225,
+        "policy_latency": 0.26668957294896245,
+        "obs_to_action": 0.7879283599322662
+    },
+    {
+        "obs_fetching": 0.04463822906836867,
+        "policy_latency": 0.28936326992698014,
+        "obs_to_action": 0.35930871905293316
+    },
+    {
+        "obs_fetching": 0.2264832069631666,
+        "policy_latency": 0.2752155112102628,
+        "obs_to_action": 0.59874536562711
+    },
+    {
+        "obs_fetching": 0.3044167689513415,
+        "policy_latency": 0.26915218599606305,
+        "obs_to_action": 0.7873052640352398
+    },
+    {
+        "obs_fetching": 0.04505161696579307,
+        "policy_latency": 0.2852250380674377,
+        "obs_to_action": 0.3607846189988777
+    },
+    {
+        "obs_fetching": 0.22726360149681568,
+        "policy_latency": 0.2715928676771,
+        "obs_to_action": 0.6001503526931629
+    },
+    {
+        "obs_fetching": 0.3053544519934803,
+        "policy_latency": 0.26575050910469145,
+        "obs_to_action": 0.7887093640165403
+    },
+    {
+        "obs_fetching": 0.04583668103441596,
+        "policy_latency": 0.28130119398701936,
+        "obs_to_action": 0.3622456780867651
+    },
+    {
+        "obs_fetching": 0.21732712618540972,
+        "policy_latency": 0.27614659001119435,
+        "obs_to_action": 0.6008163443766534
+    },
+    {
+        "obs_fetching": 0.2908230311004445,
+        "policy_latency": 0.2739374740049243,
+        "obs_to_action": 0.7890048430999741
+    },
+    {
+        "obs_fetching": 0.04844841407611966,
+        "policy_latency": 0.28112448391038924,
+        "obs_to_action": 0.36343752103857696
+    },
+    {
+        "obs_fetching": 0.22710641042795032,
+        "policy_latency": 0.26904144638683647,
+        "obs_to_action": 0.5999048826051876
+    },
+    {
+        "obs_fetching": 0.3036741230171174,
+        "policy_latency": 0.26386300195008516,
+        "obs_to_action": 0.7871712240157649
+    },
+    {
+        "obs_fetching": 0.04896699998062104,
+        "policy_latency": 0.2874696230283007,
+        "obs_to_action": 0.36471353203523904
+    },
+    {
+        "obs_fetching": 0.21344789420254529,
+        "policy_latency": 0.2719600653508678,
+        "obs_to_action": 0.5853358344174922
+    },
+    {
+        "obs_fetching": 0.2839397060452029,
+        "policy_latency": 0.2653131119441241,
+        "obs_to_action": 0.7658487680600956
+    },
+    {
+        "obs_fetching": 0.016632418031804264,
+        "policy_latency": 0.28126762399915606,
+        "obs_to_action": 0.3330038549611345
+    },
+    {
+        "obs_fetching": 0.1933898163260892,
+        "policy_latency": 0.27548378717619926,
+        "obs_to_action": 0.5767689743079245
+    },
+    {
+        "obs_fetching": 0.26914298709016293,
+        "policy_latency": 0.27300499996636063,
+        "obs_to_action": 0.7672352499794215
+    },
+    {
+        "obs_fetching": 0.01877147296909243,
+        "policy_latency": 0.2800036830594763,
+        "obs_to_action": 0.33438283600844443
+    },
+    {
+        "obs_fetching": 0.19458290457259864,
+        "policy_latency": 0.27415690920315683,
+        "obs_to_action": 0.5781882655574009
+    },
+    {
+        "obs_fetching": 0.26993066095747054,
+        "policy_latency": 0.2716511490289122,
+        "obs_to_action": 0.7686081799911335
+    },
+    {
+        "obs_fetching": 0.019983226084150374,
+        "policy_latency": 0.28625119000207633,
+        "obs_to_action": 0.33566828805487603
+    },
+    {
+        "obs_fetching": 0.2059654266340658,
+        "policy_latency": 0.275512752472423,
+        "obs_to_action": 0.57951212185435
+    },
+    {
+        "obs_fetching": 0.2856720839627087,
+        "policy_latency": 0.27091056504286826,
+        "obs_to_action": 0.7699231009464711
+    },
+    {
+        "obs_fetching": 0.021119917975738645,
+        "policy_latency": 0.28823499695863575,
+        "obs_to_action": 0.3368365599308163
+    },
+    {
+        "obs_fetching": 0.2081258826656267,
+        "policy_latency": 0.27520263218320906,
+        "obs_to_action": 0.5807399381883442
+    },
+    {
+        "obs_fetching": 0.28827129607088864,
+        "policy_latency": 0.26961733296047896,
+        "obs_to_action": 0.7711857419926673
+    },
+    {
+        "obs_fetching": 0.022341449977830052,
+        "policy_latency": 0.28422449401114136,
+        "obs_to_action": 0.3381643210304901
+    },
+    {
+        "obs_fetching": 0.20821015408728272,
+        "policy_latency": 0.27389893389772624,
+        "obs_to_action": 0.5820317065808922
+    },
+    {
+        "obs_fetching": 0.28786817006766796,
+        "policy_latency": 0.2694736939156428,
+        "obs_to_action": 0.7727298920508474
+    },
+    {
+        "obs_fetching": 0.026972447987645864,
+        "policy_latency": 0.28493850002996624,
+        "obs_to_action": 0.3395032020052895
+    },
+    {
+        "obs_fetching": 0.21155750029720366,
+        "policy_latency": 0.2740376975852996,
+        "obs_to_action": 0.5835311214905232
+    },
+    {
+        "obs_fetching": 0.2906653799582273,
+        "policy_latency": 0.2693659249925986,
+        "obs_to_action": 0.7740879219491035
+    },
+    {
+        "obs_fetching": 0.02548150799702853,
+        "policy_latency": 0.28699540602974594,
+        "obs_to_action": 0.3413207600824535
+    },
+    {
+        "obs_fetching": 0.21217704704031348,
+        "policy_latency": 0.27721169008873403,
+        "obs_to_action": 0.5851348324213177
+    },
+    {
+        "obs_fetching": 0.2921894210157916,
+        "policy_latency": 0.27301866898778826,
+        "obs_to_action": 0.7757816510275006
+    },
+    {
+        "obs_fetching": 0.027592972968705,
+        "policy_latency": 0.2828398239798844,
+        "obs_to_action": 0.3426800000015646
+    },
+    {
+        "obs_fetching": 0.2137822125805542,
+        "policy_latency": 0.2758538357447833,
+        "obs_to_action": 0.5865852418355644
+    },
+    {
+        "obs_fetching": 0.29357760096900165,
+        "policy_latency": 0.2728598410030827,
+        "obs_to_action": 0.7770215120399371
+    },
+    {
+        "obs_fetching": 0.030064976890571415,
+        "policy_latency": 0.2857915530912578,
+        "obs_to_action": 0.34398872090969235
+    },
+    {
+        "obs_fetching": 0.21573211741633713,
+        "policy_latency": 0.2743927676929161,
+        "obs_to_action": 0.5877395032439381
+    },
+    {
+        "obs_fetching": 0.2953037489205599,
+        "policy_latency": 0.26950757403392345,
+        "obs_to_action": 0.7781114559620619
+    },
+    {
+        "obs_fetching": 0.02982235897798091,
+        "policy_latency": 0.2842929740436375,
+        "obs_to_action": 0.3453153420705348
+    },
+    {
+        "obs_fetching": 0.2162639459129423,
+        "policy_latency": 0.2754498425638303,
+        "obs_to_action": 0.5891623786883429
+    },
+    {
+        "obs_fetching": 0.2961674830876291,
+        "policy_latency": 0.27165992895606905,
+        "obs_to_action": 0.7795882050413638
+    },
+    {
+        "obs_fetching": 0.03174774593207985,
+        "policy_latency": 0.2862263610586524,
+        "obs_to_action": 0.3466637429082766
+    },
+    {
+        "obs_fetching": 0.21756368468049914,
+        "policy_latency": 0.2781995430123061,
+        "obs_to_action": 0.5910403676098213
+    },
+    {
+        "obs_fetching": 0.2971990869846195,
+        "policy_latency": 0.27475947805214673,
+        "obs_to_action": 0.7818788000149652
+    },
+    {
+        "obs_fetching": 0.03251024195924401,
+        "policy_latency": 0.2807772069936618,
+        "obs_to_action": 0.3488212089287117
+    },
+    {
+        "obs_fetching": 0.20939248311333358,
+        "policy_latency": 0.2780671122018248,
+        "obs_to_action": 0.5928319233935326
+    },
+    {
+        "obs_fetching": 0.285199158010073,
+        "policy_latency": 0.27690564293880016,
+        "obs_to_action": 0.7833542500156909
+    },
+    {
+        "obs_fetching": 0.03448423696681857,
+        "policy_latency": 0.2879007200244814,
+        "obs_to_action": 0.3503561879042536
+    },
+    {
+        "obs_fetching": 0.2211845158599317,
+        "policy_latency": 0.27938377170357853,
+        "obs_to_action": 0.5946379349334165
+    },
+    {
+        "obs_fetching": 0.30119892104994506,
+        "policy_latency": 0.2757336510112509,
+        "obs_to_action": 0.7850142690585926
+    },
+    {
+        "obs_fetching": 0.03631735604722053,
+        "policy_latency": 0.2832029398996383,
+        "obs_to_action": 0.352347744978033
+    },
+    {
+        "obs_fetching": 0.22286854113917798,
+        "policy_latency": 0.2719588882755488,
+        "obs_to_action": 0.5961045982548967
+    },
+    {
+        "obs_fetching": 0.3028190489858389,
+        "policy_latency": 0.2671400089748204,
+        "obs_to_action": 0.7864680389175192
+    },
+    {
+        "obs_fetching": 0.03757705702446401,
+        "policy_latency": 0.2842756330501288,
+        "obs_to_action": 0.3536769150523469
+    },
+    {
+        "obs_fetching": 0.2244116635993123,
+        "policy_latency": 0.272624226170592,
+        "obs_to_action": 0.5976082924753428
+    },
+    {
+        "obs_fetching": 0.3044836379121989,
+        "policy_latency": 0.26763076602946967,
+        "obs_to_action": 0.7880898879375309
+    },
+    {
+        "obs_fetching": 0.039192746044136584,
+        "policy_latency": 0.2844311319058761,
+        "obs_to_action": 0.35502130701206625
+    },
+    {
+        "obs_fetching": 0.2252993785077706,
+        "policy_latency": 0.27314366633072495,
+        "obs_to_action": 0.5982176456600428
+    },
+    {
+        "obs_fetching": 0.3050593639491126,
+        "policy_latency": 0.26830618106760085,
+        "obs_to_action": 0.7883960459148511
+    },
+    {
+        "obs_fetching": 0.04037003801204264,
+        "policy_latency": 0.28365164902061224,
+        "obs_to_action": 0.356446927995421
+    },
+    {
+        "obs_fetching": 0.22529822832439095,
+        "policy_latency": 0.27237954770680517,
+        "obs_to_action": 0.5986360860988498
+    },
+    {
+        "obs_fetching": 0.30455316707957536,
+        "policy_latency": 0.2675486470106989,
+        "obs_to_action": 0.7883575260639191
+    },
+    {
+        "obs_fetching": 0.04254419403150678,
+        "policy_latency": 0.2872087439754978,
+        "obs_to_action": 0.35776597901713103
+    },
+    {
+        "obs_fetching": 0.22612298955209553,
+        "policy_latency": 0.2731835327576846,
+        "obs_to_action": 0.5988259298028424
+    },
+    {
+        "obs_fetching": 0.30479961598757654,
+        "policy_latency": 0.26717272808309644,
+        "obs_to_action": 0.7880465380148962
+    },
+    {
+        "obs_fetching": 0.042897520936094224,
+        "policy_latency": 0.2860941420076415,
+        "obs_to_action": 0.35903298994526267
+    },
+    {
+        "obs_fetching": 0.22629141272045672,
+        "policy_latency": 0.27407927555032074,
+        "obs_to_action": 0.5994515729835257
+    },
+    {
+        "obs_fetching": 0.3048887950135395,
+        "policy_latency": 0.26893004693556577,
+        "obs_to_action": 0.7893386189825833
+    },
+    {
+        "obs_fetching": 0.04542577394749969,
+        "policy_latency": 0.28377449698746204,
+        "obs_to_action": 0.3611362259835005
+    },
+    {
+        "obs_fetching": 0.22769034176599234,
+        "policy_latency": 0.2777434285962954,
+        "obs_to_action": 0.6002942124614492
+    },
+    {
+        "obs_fetching": 0.30580372805707157,
+        "policy_latency": 0.2751586849335581,
+        "obs_to_action": 0.7891301299678162
+    },
+    {
+        "obs_fetching": 0.048422774067148566,
+        "policy_latency": 0.285319096990861,
+        "obs_to_action": 0.363300021039322
+    },
+    {
+        "obs_fetching": 0.2282177930464968,
+        "policy_latency": 0.27819362829905003,
+        "obs_to_action": 0.6000685886247084
+    },
+    {
+        "obs_fetching": 0.30527280108071864,
+        "policy_latency": 0.2751398559194058,
+        "obs_to_action": 0.787764709093608
+    },
+    {
+        "obs_fetching": 0.04890065093059093,
+        "policy_latency": 0.28663156705442816,
+        "obs_to_action": 0.3649727199226618
+    },
+    {
+        "obs_fetching": 0.23476563801523298,
+        "policy_latency": 0.2737170956097543,
+        "obs_to_action": 0.6083611921640113
+    },
+    {
+        "obs_fetching": 0.31442206096835434,
+        "policy_latency": 0.268182322033681,
+        "obs_to_action": 0.7984532779082656
+    },
+    {
+        "obs_fetching": 0.016680606990121305,
+        "policy_latency": 0.2842540140263736,
+        "obs_to_action": 0.333282932988368
+    },
+    {
+        "obs_fetching": 0.20359952095896006,
+        "policy_latency": 0.2749512589070946,
+        "obs_to_action": 0.5771370005095378
+    },
+    {
+        "obs_fetching": 0.28370762697886676,
+        "policy_latency": 0.2709643639391288,
+        "obs_to_action": 0.7676098049851134
+    },
+    {
+        "obs_fetching": 0.022182310931384563,
+        "policy_latency": 0.28488339902833104,
+        "obs_to_action": 0.33478537399787456
+    },
+    {
+        "obs_fetching": 0.20742394519038498,
+        "policy_latency": 0.27354619838297367,
+        "obs_to_action": 0.57864780863747
+    },
+    {
+        "obs_fetching": 0.28681321698240936,
+        "policy_latency": 0.26868739794008434,
+        "obs_to_action": 0.7693875239929184
+    },
+    {
+        "obs_fetching": 0.021085298038087785,
+        "policy_latency": 0.2853658959502354,
+        "obs_to_action": 0.33639671199489385
+    },
+    {
+        "obs_fetching": 0.20653093175496906,
+        "policy_latency": 0.2739975181175396,
+        "obs_to_action": 0.5804128958843648
+    },
+    {
+        "obs_fetching": 0.28600763203576207,
+        "policy_latency": 0.26912535598967224,
+        "obs_to_action": 0.7711503319442272
+    },
+    {
+        "obs_fetching": 0.02205141296144575,
+        "policy_latency": 0.2804749490460381,
+        "obs_to_action": 0.33825106092263013
+    },
+    {
+        "obs_fetching": 0.1983245456358418,
+        "policy_latency": 0.27442569471895695,
+        "obs_to_action": 0.5820848628645763
+    },
+    {
+        "obs_fetching": 0.2738701739581302,
+        "policy_latency": 0.2718331570504233,
+        "obs_to_action": 0.7725170409539714
+    },
+    {
+        "obs_fetching": 0.024066027952358127,
+        "policy_latency": 0.27968054509256035,
+        "obs_to_action": 0.3398328690091148
+    },
+    {
+        "obs_fetching": 0.20017102954443544,
+        "policy_latency": 0.2749551775632426,
+        "obs_to_action": 0.5836636844323948
+    },
+    {
+        "obs_fetching": 0.2756446019047871,
+        "policy_latency": 0.2729300200007856,
+        "obs_to_action": 0.7747713970020413
+    },
+    {
+        "obs_fetching": 0.02597790607251227,
+        "policy_latency": 0.28152874193619937,
+        "obs_to_action": 0.34192966599948704
+    },
+    {
+        "obs_fetching": 0.21207949798554182,
+        "policy_latency": 0.2774982455885038,
+        "obs_to_action": 0.5857906928285956
+    },
+    {
+        "obs_fetching": 0.29183732299134135,
+        "policy_latency": 0.2757708899443969,
+        "obs_to_action": 0.7764591749291867
+    },
+    {
+        "obs_fetching": 0.0273774650413543,
+        "policy_latency": 0.28040300006978214,
+        "obs_to_action": 0.34345658402889967
+    },
+    {
+        "obs_fetching": 0.2035490438574925,
+        "policy_latency": 0.2708280016668141,
+        "obs_to_action": 0.5874027028912678
+    },
+    {
+        "obs_fetching": 0.27905114903114736,
+        "policy_latency": 0.26672443107236177,
+        "obs_to_action": 0.7779455060372129
+    },
+    {
+        "obs_fetching": 0.02863756800070405,
+        "policy_latency": 0.28493800899013877,
+        "obs_to_action": 0.34498900501057506
+    },
+    {
+        "obs_fetching": 0.21625608438625932,
+        "policy_latency": 0.278330123052001,
+        "obs_to_action": 0.589390255860053
+    },
+    {
+        "obs_fetching": 0.29666402004659176,
+        "policy_latency": 0.2754981719190255,
+        "obs_to_action": 0.7798124320106581
+    },
+    {
+        "obs_fetching": 0.03085724206175655,
+        "policy_latency": 0.28578777296934277,
+        "obs_to_action": 0.34696362097747624
+    },
+    {
+        "obs_fetching": 0.21711723611224443,
+        "policy_latency": 0.27229933999478817,
+        "obs_to_action": 0.5907246185233817
+    },
+    {
+        "obs_fetching": 0.2969429478980601,
+        "policy_latency": 0.2665185830555856,
+        "obs_to_action": 0.7811522029805928
+    },
+    {
+        "obs_fetching": 0.032039763987995684,
+        "policy_latency": 0.28538992593530566,
+        "obs_to_action": 0.34827153198421
+    },
+    {
+        "obs_fetching": 0.21851471986155957,
+        "policy_latency": 0.2729186350479722,
+        "obs_to_action": 0.5920784216141328
+    },
+    {
+        "obs_fetching": 0.29843255796004087,
+        "policy_latency": 0.26757379597984254,
+        "obs_to_action": 0.7825158149935305
+    },
+    {
+        "obs_fetching": 0.03532994200941175,
+        "policy_latency": 0.28654204797931015,
+        "obs_to_action": 0.3494391650892794
+    },
+    {
+        "obs_fetching": 0.221081004710868,
+        "policy_latency": 0.272300167940557,
+        "obs_to_action": 0.5930355340242386
+    },
+    {
+        "obs_fetching": 0.3006886029615998,
+        "policy_latency": 0.2661965050501749,
+        "obs_to_action": 0.7833755989558995
+    },
+    {
+        "obs_fetching": 0.035421940963715315,
+        "policy_latency": 0.28801019897218794,
+        "obs_to_action": 0.35080760496202856
+    },
+    {
+        "obs_fetching": 0.22181050351355225,
+        "policy_latency": 0.27434618561528623,
+        "obs_to_action": 0.5943947999039665
+    },
+    {
+        "obs_fetching": 0.30169131606817245,
+        "policy_latency": 0.26849018002394587,
+        "obs_to_action": 0.784697650000453
+    },
+    {
+        "obs_fetching": 0.036452044965699315,
+        "policy_latency": 0.28807582706213,
+        "obs_to_action": 0.35210526594892144
+    },
+    {
+        "obs_fetching": 0.22239871427882463,
+        "policy_latency": 0.27507968654390424,
+        "obs_to_action": 0.5955368267605081
+    },
+    {
+        "obs_fetching": 0.3020901440177113,
+        "policy_latency": 0.2695099120028317,
+        "obs_to_action": 0.7856527729891241
+    },
+    {
+        "obs_fetching": 0.03814327297732234,
+        "policy_latency": 0.2852413170039654,
+        "obs_to_action": 0.35369127604644746
+    },
+    {
+        "obs_fetching": 0.22478657111059874,
+        "policy_latency": 0.27220358175691217,
+        "obs_to_action": 0.5974763515405357
+    },
+    {
+        "obs_fetching": 0.3047765559749678,
+        "policy_latency": 0.26661598100326955,
+        "obs_to_action": 0.787941528018564
+    },
+    {
+        "obs_fetching": 0.03890503803268075,
+        "policy_latency": 0.2820957879303023,
+        "obs_to_action": 0.35490352695342153
+    },
+    {
+        "obs_fetching": 0.22480023640673608,
+        "policy_latency": 0.2730829707579687,
+        "obs_to_action": 0.598169596050866
+    },
+    {
+        "obs_fetching": 0.3044696069555357,
+        "policy_latency": 0.26922033494338393,
+        "obs_to_action": 0.7883701449027285
+    },
+    {
+        "obs_fetching": 0.04198880691546947,
+        "policy_latency": 0.27973226399626583,
+        "obs_to_action": 0.35630323796067387
+    },
+    {
+        "obs_fetching": 0.21480901748873293,
+        "policy_latency": 0.2748665198450908,
+        "obs_to_action": 0.5971257898490876
+    },
+    {
+        "obs_fetching": 0.2888748219702393,
+        "policy_latency": 0.27278120105620474,
+        "obs_to_action": 0.7862891589757055
+    },
+    {
+        "obs_fetching": 0.04192854696884751,
+        "policy_latency": 0.2826122749829665,
+        "obs_to_action": 0.35777473798952997
+    },
+    {
+        "obs_fetching": 0.22604384692385793,
+        "policy_latency": 0.2755195936188102,
+        "obs_to_action": 0.5990577402990311
+    },
+    {
+        "obs_fetching": 0.3049504039809108,
+        "policy_latency": 0.27247987303417176,
+        "obs_to_action": 0.7883765350561589
+    },
+    {
+        "obs_fetching": 0.044993126997724175,
+        "policy_latency": 0.28213828802108765,
+        "obs_to_action": 0.3590055990498513
+    },
+    {
+        "obs_fetching": 0.2255645040422678,
+        "policy_latency": 0.2747762557119131,
+        "obs_to_action": 0.5978838094742969
+    },
+    {
+        "obs_fetching": 0.3029522370779887,
+        "policy_latency": 0.27162109897471964,
+        "obs_to_action": 0.7861764290137216
+    },
+    {
+        "obs_fetching": 0.045112886000424623,
+        "policy_latency": 0.2865207080030814,
+        "obs_to_action": 0.36010481195989996
+    },
+    {
+        "obs_fetching": 0.2262866864912212,
+        "policy_latency": 0.27414003829471767,
+        "obs_to_action": 0.5988963121781126
+    },
+    {
+        "obs_fetching": 0.3039326010039076,
+        "policy_latency": 0.268834037007764,
+        "obs_to_action": 0.7872143720742315
+    },
+    {
+        "obs_fetching": 0.04659180692397058,
+        "policy_latency": 0.2807006570510566,
+        "obs_to_action": 0.36143066396471113
+    },
+    {
+        "obs_fetching": 0.22604210604913533,
+        "policy_latency": 0.2707865472184494,
+        "obs_to_action": 0.5991738161537796
+    },
+    {
+        "obs_fetching": 0.30294937698636204,
+        "policy_latency": 0.2665376430377364,
+        "obs_to_action": 0.7870135529665276
+    },
+    {
+        "obs_fetching": 0.047528918948955834,
+        "policy_latency": 0.2861556210555136,
+        "obs_to_action": 0.36296954192221165
+    },
+    {
+        "obs_fetching": 0.22698320250492543,
+        "policy_latency": 0.2738420874811709,
+        "obs_to_action": 0.6008363781729713
+    },
+    {
+        "obs_fetching": 0.3038921810220927,
+        "policy_latency": 0.26856485893949866,
+        "obs_to_action": 0.7886708120349795
+    },
+    {
+        "obs_fetching": 0.04853301297407597,
+        "policy_latency": 0.2869322260376066,
+        "obs_to_action": 0.3642875839723274
+    },
+    {
+        "obs_fetching": 0.23551639635115862,
+        "policy_latency": 0.2738551025977358,
+        "obs_to_action": 0.6080203190213069
+    },
+    {
+        "obs_fetching": 0.31565213203430176,
+        "policy_latency": 0.2682506210403517,
+        "obs_to_action": 0.7984244460240006
+    },
+    {
+        "obs_fetching": 0.016133481985889375,
+        "policy_latency": 0.28459559101611376,
+        "obs_to_action": 0.33239936898462474
+    },
+    {
+        "obs_fetching": 0.20482854230795056,
+        "policy_latency": 0.27163039753213525,
+        "obs_to_action": 0.5763346827588975
+    },
+    {
+        "obs_fetching": 0.2856978540075943,
+        "policy_latency": 0.2660738859558478,
+        "obs_to_action": 0.766812939895317
+    },
+    {
+        "obs_fetching": 0.01796022802591324,
+        "policy_latency": 0.28347341902554035,
+        "obs_to_action": 0.33368725003674626
+    },
+    {
+        "obs_fetching": 0.20413003489375114,
+        "policy_latency": 0.2746703128796071,
+        "obs_to_action": 0.5777067579329014
+    },
+    {
+        "obs_fetching": 0.28391709504649043,
+        "policy_latency": 0.2708975529531017,
+        "obs_to_action": 0.7682588390307501
+    },
+    {
+        "obs_fetching": 0.019124150974676013,
+        "policy_latency": 0.28545201593078673,
+        "obs_to_action": 0.3352813998935744
+    },
+    {
+        "obs_fetching": 0.20577541436068714,
+        "policy_latency": 0.2751765535213053,
+        "obs_to_action": 0.5795542364940047
+    },
+    {
+        "obs_fetching": 0.2857688129879534,
+        "policy_latency": 0.2707727840170264,
+        "obs_to_action": 0.769978258991614
+    },
+    {
+        "obs_fetching": 0.021618244936689734,
+        "policy_latency": 0.2900685240747407,
+        "obs_to_action": 0.3371165569406003
+    },
+    {
+        "obs_fetching": 0.20812599442433566,
+        "policy_latency": 0.27609170449431986,
+        "obs_to_action": 0.5812081268522888
+    },
+    {
+        "obs_fetching": 0.28805788699537516,
+        "policy_latency": 0.27010163897648454,
+        "obs_to_action": 0.7720858840039
+    },
+    {
+        "obs_fetching": 0.024370335042476654,
+        "policy_latency": 0.2878692289814353,
+        "obs_to_action": 0.3391011430649087
+    },
+    {
+        "obs_fetching": 0.21055079577490687,
+        "policy_latency": 0.27179469855036587,
+        "obs_to_action": 0.582968661445193
+    },
+    {
+        "obs_fetching": 0.29034242196939886,
+        "policy_latency": 0.2649056139634922,
+        "obs_to_action": 0.773389644920826
+    },
+    {
+        "obs_fetching": 0.02469836303498596,
+        "policy_latency": 0.2885144850006327,
+        "obs_to_action": 0.3403376650530845
+    },
+    {
+        "obs_fetching": 0.21162665006704628,
+        "policy_latency": 0.27443757257424295,
+        "obs_to_action": 0.5843425086932257
+    }
+]
