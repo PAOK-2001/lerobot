@@ -45,8 +45,20 @@ When implementing a new policy class (e.g. `DiffusionPolicy`) follow these steps
 """
 
 import itertools
+import os
+
+from dotenv import load_dotenv
+from huggingface_hub import login
 
 from lerobot.__version__ import __version__  # noqa: F401
+
+load_dotenv()
+access_token = os.getenv("HF_TOKEN", None)
+
+print(
+    "HuggingFace token found in environment" if access_token else "No HuggingFace token found in environment"
+)
+login(access_token)
 
 # TODO(rcadene): Improve policies and envs. As of now, an item in `available_policies`
 # refers to a yaml file AND a modeling name. Same for `available_envs` which refers to

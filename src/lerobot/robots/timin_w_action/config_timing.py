@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import TypeAlias
+from pathlib import Path
 
 from lerobot.cameras.realsense import RealSenseCameraConfig
 
@@ -9,6 +9,9 @@ from ..config import RobotConfig
 @RobotConfig.register_subclass("timing")
 @dataclass
 class TimingConfig(RobotConfig):
+    port: str = "/dev/ttyACM0"
+    disable_torque_on_disconnect: bool = True
+    calibration_fpath: Path | None = None
     # cameras
     id: str | None = None
     cameras: dict[str, RealSenseCameraConfig] = field(

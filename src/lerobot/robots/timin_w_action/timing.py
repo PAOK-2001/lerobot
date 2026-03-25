@@ -15,7 +15,6 @@
 # limitations under the License.
 
 import logging
-import json
 import time
 from functools import cached_property
 from threading import Event, Lock, Thread
@@ -27,24 +26,6 @@ from lerobot.utils.decorators import check_if_already_connected, check_if_not_co
 from ..robot import Robot
 
 logger = logging.getLogger(__name__)
-
-ROBOT_DELAY_MS = 1
-SAMPLES = 510
-
-
-class DummyBus:
-    def __init__(self):
-        self.motors = {
-            "joint_1",
-            "joint_2",
-            "joint_3",
-            "joint_4",
-            "joint_5",
-            "joint_6",
-            "joint_7",
-            "gripper",
-        }
-        self.is_connected = True
 
 
 class Timing(Robot):
@@ -66,10 +47,7 @@ class Timing(Robot):
         }
         self.cameras = make_cameras_from_configs(config.cameras)
         self.move_lock = Lock()
-        self.bus = DummyBus()
         self.last_timestep = None
-        self.timings = []
-        # self.lock = Lock()
 
     @property
     def _motors_ft(self) -> dict[str, type]:
@@ -125,7 +103,7 @@ class Timing(Robot):
         start = time.perf_counter()
 
         # MOTOR READ, not blocking
-        time.sleep(ROBOT_DELAY_MS / 1000)
+        time.sleep(0.001)
 
         obs_dict = {motor: 0.0 for motor in self._motors_ft}
         dt_ms = (time.perf_counter() - start) * 1e3
@@ -165,49 +143,32 @@ class Timing(Robot):
         # Send goal position to the arm
 
         # check if first action in chunk
-        # print("RECEIVED ACTION:", action)
-        camera_1_ts = action["joint_2.pos"]
-        if camera_1_ts != self.last_timestep:
+        timestep = action["joint_2.pos"]
+        if timestep != self.last_timestep:
+            camera_1_ts = action["joint_2.pos"]
             camera_2_ts = action["joint_3.pos"]
             camera_3_ts = action["joint_4.pos"]
             policy_start = action["joint_5.pos"]
             policy_end = action["joint_6.pos"]
             action_received = time.perf_counter()
 
-            # Build latency
-            # breakpoint()
-            obs_fetchhing = policy_start - camera_1_ts
-            policy_latency = policy_end - policy_start
-            obs_to_action = action_received - camera_1_ts
-            latency = {
-                "obs_fetching": obs_fetchhing,
-                "policy_latency": policy_latency,
-                "obs_to_action": obs_to_action,
-            }
-            # print(
-            #     f"Latency: obs_fetching={obs_fetchhing * 1000:.2f} ms, policy_latency={policy_latency * 1000:.2f} ms, obs_to_action={obs_to_action * 1000:.2f} ms"
-            # )
-            logger.info(f"Collected {len(self.timings)}/{SAMPLES} samples.")
-            if len(self.timings) < SAMPLES:
-                self.timings.append(latency)
+            logger.info(
+                "TIMESTAMPS:\n"
+                f"Cameras: {camera_1_ts}, {camera_2_ts}, {camera_3_ts}\n"
+                f"Policy start: {policy_start}\n"
+                f"Policy end: {policy_end}\n"
+                f"Action received: {action_received}\n"
+                f"Total end-to-end: {action_received - camera_1_ts}"
+            )
 
-            if len(self.timings) == SAMPLES:
-                logger.info(f"!!!!!!!!!!! LAST {obs_to_action * 1000:.2f} ms. SAFE TO STOP !!!!!!!!")
-                # Save to file JSON
-                with open("latency_timings.json", "w") as f:
-                    json.dump(self.timings, f, indent=4)
-
-            self.last_timestep = camera_1_ts
+            self.last_timestep = timestep
 
         # MOTOR WRITE, not blocking
-        time.sleep(ROBOT_DELAY_MS / 1000)
+        time.sleep(0.001)
 
     @check_if_not_connected
     def disconnect(self):
         for cam in self.cameras.values():
             cam.disconnect()
-
-        with open("latency_timings.json", "w") as f:
-            json.dump(self.timings, f, indent=4)
 
         logger.info(f"{self} disconnected.")

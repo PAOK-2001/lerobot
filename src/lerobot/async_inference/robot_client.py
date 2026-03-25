@@ -57,6 +57,7 @@ from lerobot.robots import (  # noqa: F401
     make_robot_from_config,
     omx_follower,
     so_follower,
+    timing,
 )
 from lerobot.transport import (
     services_pb2,  # type: ignore
@@ -276,6 +277,7 @@ class RobotClient:
             try:
                 # Use StreamActions to get a stream of actions from the server
                 actions_chunk = self.stub.GetActions(services_pb2.Empty())
+                # print("actions chunk", actions_chunk)
                 if len(actions_chunk.data) == 0:
                     continue  # received `Empty` from server, wait for next call
 
@@ -302,6 +304,8 @@ class RobotClient:
                     self.logger.debug(f"Actions kept on device: {client_device}")
 
                 self.action_chunk_size = max(self.action_chunk_size, len(timed_actions))
+
+                # print("timed actions", timed_actions)
 
                 # Calculate network latency if we have matching observations
                 if len(timed_actions) > 0 and verbose:
@@ -332,6 +336,7 @@ class RobotClient:
                 # Update action queue
                 start_time = time.perf_counter()
                 self._aggregate_action_queues(timed_actions, self.config.aggregate_fn)
+                # print("action queue", self.action_queue)
                 queue_update_time = time.perf_counter() - start_time
 
                 self.must_go.set()  # after receiving actions, next empty queue triggers must-go processing!
@@ -364,7 +369,7 @@ class RobotClient:
             return not self.action_queue.empty()
 
     def _action_tensor_to_action_dict(self, action_tensor: torch.Tensor) -> dict[str, float]:
-        action = {"joint_{i+1}.pos": action_tensor[i].item() for i in range(7)}
+        action = {f"joint_{i + 1}.pos": action_tensor[i].item() for i in range(7)}
         action["gripper.pos"] = action_tensor[7].item()
         return action
 

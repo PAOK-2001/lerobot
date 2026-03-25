@@ -27,6 +27,12 @@ from numpy.typing import NDArray  # type: ignore  # TODO: add type stubs for num
 
 try:
     import pyrealsense2 as rs  # type: ignore  # TODO: add type stubs for pyrealsense2
+
+    ctx = rs.context()
+    devices = ctx.query_devices()
+    for dev in devices:
+        dev.hardware_reset()
+    time.sleep(2)  # Allow time for devices to reset before any connections are made
 except Exception as e:
     logging.info(f"Could not import realsense: {e}")
 
@@ -478,9 +484,10 @@ class RealSenseCamera(Camera):
         failure_count = 0
         while not self.stop_event.is_set():
             try:
+                frame = self._read_from_hardware()
+
                 capture_time = time.perf_counter()
 
-                frame = self._read_from_hardware()
                 color_frame_raw = frame.get_color_frame()
                 color_frame = np.asanyarray(color_frame_raw.get_data())
                 processed_color_frame = self._postprocess_image(color_frame)

@@ -138,6 +138,8 @@ def save_image(
     """
     Saves a single image to disk using Pillow. Handles color conversion if necessary.
     """
+    img_array, time = img_array
+    logger.info(f"Saving image from camera {camera_identifier} (type {camera_type}) at time {time:.2f}s")
     try:
         img = Image.fromarray(img_array, mode="RGB")
 

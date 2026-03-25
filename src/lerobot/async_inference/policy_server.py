@@ -28,6 +28,7 @@ import logging
 import pickle  # nosec
 import threading
 import time
+import traceback
 from concurrent import futures
 from dataclasses import asdict
 from pprint import pformat
@@ -38,6 +39,7 @@ import draccus
 import grpc
 import torch
 
+from lerobot.configs.policies import PreTrainedConfig
 from lerobot.policies.factory import get_policy_class, make_pre_post_processors
 from lerobot.processor import (
     PolicyAction,
@@ -61,6 +63,8 @@ from .helpers import (
     observations_similar,
     raw_observation_to_observation,
 )
+
+logging.basicConfig(format="%(pathname)s:%(lineno)d - %(message)s")
 
 
 class PolicyServer(services_pb2_grpc.AsyncInferenceServicer):
@@ -150,8 +154,13 @@ class PolicyServer(services_pb2_grpc.AsyncInferenceServicer):
 
         policy_class = get_policy_class(self.policy_type)
 
+        config = PreTrainedConfig.from_pretrained(policy_specs.pretrained_name_or_path)
+
+        # if self.policy_type in ["pi0", "pi05"]:
+        #     config.compile_model = True
+
         start = time.perf_counter()
-        self.policy = policy_class.from_pretrained(policy_specs.pretrained_name_or_path)
+        self.policy = policy_class.from_pretrained(policy_specs.pretrained_name_or_path, config=config)
         self.policy.to(self.device)
 
         # Load preprocessor and postprocessor, overriding device to match requested device
@@ -221,12 +230,12 @@ class PolicyServer(services_pb2_grpc.AsyncInferenceServicer):
 
         # Generate action based on the most recent observation and its timestep
         try:
+            # print("Attempting to get observation from queue...")
             getactions_starts = time.perf_counter()
             obs = self.observation_queue.get(timeout=self.config.obs_queue_timeout)
             self.logger.info(
                 f"Running inference for observation #{obs.get_timestep()} (must_go: {obs.must_go})"
             )
-
             with self._predicted_timesteps_lock:
                 self._predicted_timesteps.add(obs.get_timestep())
 
@@ -264,6 +273,7 @@ class PolicyServer(services_pb2_grpc.AsyncInferenceServicer):
 
         except Exception as e:
             self.logger.error(f"Error in StreamActions: {e}")
+            self.logger.error(f"Full traceback:\n{traceback.format_exc()}")
 
             return services_pb2.Empty()
 
@@ -341,6 +351,7 @@ class PolicyServer(services_pb2_grpc.AsyncInferenceServicer):
         """
         """1. Prepare observation"""
         start_prepare = time.perf_counter()
+        # print(self.lerobot_features)
         observation: Observation = raw_observation_to_observation(
             observation_t.get_observation(),
             self.lerobot_features,
@@ -381,15 +392,23 @@ class PolicyServer(services_pb2_grpc.AsyncInferenceServicer):
         action_tensor = torch.stack(processed_actions, dim=1).squeeze(0)
         self.logger.debug(f"Postprocessed action shape: {action_tensor.shape}")
 
-        action_tensor = action_tensor.detach().cpu()
-
-        action_tensor[:][0] = -1.0
-        action_tensor[:][1] = observation["joint_1.pos"]
-        action_tensor[:][2] = observation["joint_2.pos"]
-        action_tensor[:][3] = observation["joint_3.pos"]
-        action_tensor[:][4] = start_preprocess
-        action_tensor[:][5] = start_postprocess
-
+        action_tensor = action_tensor.detach().to(device="cpu", dtype=torch.float64)
+        # joints_q = observation["observation.state"]
+        # print(joints_q[0])
+        # print(f"Timings {joints_q[0][0]}, {joints_q[0][3]}, {joints_q[0][7]}")
+        action_tensor[:, 0] = -1.0
+        old_obs = observation_t.get_observation()
+        # print(f"Old obs joints: {old_obs['joint_1.pos']}, {old_obs['joint_2.pos']}, {old_obs['joint_3.pos']}")
+        # action_tensor[:][1] = joints_q[0][0]
+        # action_tensor[:][2] = joints_q[0][3]
+        # action_tensor[:][3] = joints_q[0][7]
+        action_tensor[:, 1] = old_obs["joint_1.pos"]
+        action_tensor[:, 2] = old_obs["joint_2.pos"]
+        action_tensor[:, 3] = old_obs["joint_3.pos"]
+        action_tensor[:, 4] = start_preprocess
+        action_tensor[:, 5] = start_postprocess
+        print(start_preprocess)
+        print(action_tensor[0, 1].item(), action_tensor[0, 4].item(), action_tensor[0][5].item())
         """5. Convert to TimedAction list"""
         action_chunk = self._time_action_chunk(
             observation_t.get_timestamp(), list(action_tensor), observation_t.get_timestep()
