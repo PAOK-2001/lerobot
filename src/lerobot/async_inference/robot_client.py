@@ -58,6 +58,7 @@ from lerobot.robots import (  # noqa: F401
     omx_follower,
     so_follower,
     timing,
+    hw_timing,
 )
 from lerobot.transport import (
     services_pb2,  # type: ignore

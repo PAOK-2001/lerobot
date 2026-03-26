@@ -1,6 +1,8 @@
 import json
 import numpy as np
 
+SAMPLES = 300
+
 
 def load_data(filepath: str) -> list[dict]:
     with open(filepath) as f:
@@ -15,6 +17,7 @@ def filter_outliers(values: np.ndarray, lower_pct: float = 1, upper_pct: float =
 
 def compute_stats(data: list[dict], key: str) -> tuple[float, float]:
     values = np.array([d[key] for d in data]) * 1000  # convert to ms
+    values = values[:SAMPLES]]  # consider only first N samples
     filtered = filter_outliers(values)
     mean = np.mean(filtered)
     sem = np.std(filtered, ddof=1) / np.sqrt(len(filtered))
@@ -25,7 +28,7 @@ def main(filepath: str):
     data = load_data(filepath)
     metrics = ["obs_fetching", "policy_latency", "obs_to_action"]
 
-    print(f"{'Metric':<20} {'Value (µs)':<20}")
+    print(f"{'Metric':<20} {'Value (ms)':<20}")
     print("-" * 42)
 
     for metric in metrics:
